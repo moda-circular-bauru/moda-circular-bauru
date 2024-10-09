@@ -1,16 +1,16 @@
 <template>
     <header id="header">
         <div class="main-header container">
-            <a href="/" class="logo">
+            <router-link to="/" class="logo">
                 <img src="images/vue-logo.svg" width="120" height="80" alt="Logo">
-            </a>
+            </router-link>
             <nav class="main-header__navigation">
                 <ul class="main-header__navigation-list">
-                    <li class="main-header__navigation-list--item"><a href="#">Home</a></li>
-                    <li class="main-header__navigation-list--item"><a href="#">Impacto Ambiental</a></li>
-                    <li class="main-header__navigation-list--item"><a href="#">Tipos de Moda</a></li>
-                    <li class="main-header__navigation-list--item"><a href="#">Bauru</a></li>
-                    <li class="main-header__navigation-list--item"><a href="#">Sujeito</a></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/">Home</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/impacto-ambiental">Impacto Ambiental</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/bauru">Bauru</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/sujeito">Sujeito</router-link></li>
                 </ul>
             </nav>
         </div>

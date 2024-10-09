@@ -1,5 +1,6 @@
 <template>
 	<HeaderMenu/>
+	<router-view></router-view> <!-- Local onde as páginas serão renderizadas -->
 </template>
 
 <script>
