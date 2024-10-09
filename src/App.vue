@@ -1,16 +1,13 @@
 <template>
 	<HeaderMenu/>
-	<HelloWorld/>
 </template>
 
 <script>
 import HeaderMenu from './components/HeaderMenu.vue';
-import HelloWorld from './components/HelloWorld.vue';
 
 export default {
 	name: 'App',
-	components: {
-		HelloWorld,
+	components: {		
 		HeaderMenu
 	}
 }
