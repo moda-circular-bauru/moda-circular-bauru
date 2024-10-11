@@ -1,13 +1,18 @@
 <template>
-    <div>
-      <h1>Home Page</h1>
-      <p>Bem-vindo à página inicial do site!</p>
-    </div>
-  </template>
+    <BannerComponent banner="/images/banner_desktop.webp" />
+</template>
   
-  <script>
-  export default {
-    name: 'HomeView',
-  };
-  </script>
-  
+<script>
+	import BannerComponent from '@/components/BannerComponent.vue';
+
+	export default {
+		name: 'HomeView',
+		components: {
+			BannerComponent,
+		}
+    };
+</script>
+
+<style scoped>
+
+</style>
