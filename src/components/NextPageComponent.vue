@@ -35,6 +35,10 @@
 </script>
 
 <style scoped>
+    #next-page {
+        padding: 0 0 64px 0;
+    }
+
     .next-page {
         display: flex;
         justify-content: flex-end;
@@ -53,6 +57,9 @@
         flex-direction: column;
 
         justify-content: center;
+    }
+
+    .next-page__link--text p {
         text-align: end;
     }
 
