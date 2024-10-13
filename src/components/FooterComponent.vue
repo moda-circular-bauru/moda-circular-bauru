@@ -30,7 +30,7 @@
     .sub-footer {
         width: 100%;
         height: 50px;
-        background-color: #E23131;
+        background-color: var(--primary-color);
     }
 
     .footer {

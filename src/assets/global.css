@@ -1,39 +1,103 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Reset básico de estilo */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html, body, #app {
-    height: 100%;
-    width: 100%;
+/* Reset de borda e padding para elementos block */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, figure, dl, dd {
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
+/* Definição padrão para lista */
 ul, ol {
-    list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 0;
+/* Reset de elementos de formulário */
+button, input, textarea, select {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: inherit;
 }
 
+/* Remover a decoração padrão dos links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset para tabelas */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Definir altura mínima para o body */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+/* Imagens e elementos multimídia */
+img, video, canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Estilos globais adicionais */
 section {
     padding: 64px 0;
 }
-/* Estilos globais adicionais */
+
+h1, h2, h3, h4, h5, h6, p, span {
+    text-align: start;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--title-font);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: var(--heading-first-font-size);
+}
+
+h2 {
+  font-size: var(--heading-second-font-size);
+}
+
+h3 {
+  font-size: var(--heading-third-font-size);
+}
+
+
+p, span {
+  font-family: var(--text-font);
+  font-size: var(--text-font-size);
+}
+
+.title {
+    color: var(--primary-color);
+}
+
+.subtitle {
+    color: var(--secondary-color);
+    font-weight: 400;
+}
+
 @media screen and (min-width: 1024px) {
     .only-mobile {
         display: none !important;
