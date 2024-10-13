@@ -1,0 +1,31 @@
+:root {
+    /* main colors */
+    --primary-color: #E23131;
+    --secondary-color: #E38282;
+
+    /* gray-scale colors */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --text-color: #282828;
+    --color-gray: #576563;
+    --color-light-gray: #eef5f4;
+    --color-medium-gray: #98a5a3;
+    --color-dark-gray: #203736;
+    --color-gray-border: #203736;
+
+    /* fonts variables */
+    --title-font: "Playfair Display Bold", serif;
+    --title-font-regular: "Playfair Display Regular", serif;
+    --text-font: "OpenSans Regular", serif;
+    --text-font-semibold: "OpenSans SemiBold", serif;
+    --heading-first-font-size: 40px;
+    --heading-second-font-size: 32px;
+    --heading-third-font-size: 24px;
+    --text-font-size: 16px;
+    --line-height: 125%;
+
+    /* transition */
+    --transition-speed: 0.5s;
+    --transition-movement: ease;
+    --transition: var(--transition-speed) var(--transition-movement) all;
+}
