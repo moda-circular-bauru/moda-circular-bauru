@@ -31,7 +31,7 @@
 <style scoped>
     header#header {
         min-height: 80px;
-        background-color: #F3F3F3;
+        background-color: #D9D9D9;
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
         display: flex;

@@ -1,15 +1,18 @@
 <template>
 	<HeaderMenu/>
 	<router-view></router-view> <!-- Local onde as páginas serão renderizadas -->
+	<FooterComponent/>
 </template>
 
 <script>
+import FooterComponent from './components/FooterComponent.vue';
 import HeaderMenu from './components/HeaderMenu.vue';
 
 export default {
 	name: 'App',
-	components: {		
-		HeaderMenu
+	components: {
+		HeaderMenu,
+		FooterComponent
 	}
 }
 </script>
