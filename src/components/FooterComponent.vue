@@ -23,6 +23,10 @@
 </script>
 
 <style scoped>
+    section#footer {
+        padding: 0;
+    }
+    
     .sub-footer {
         width: 100%;
         height: 50px;

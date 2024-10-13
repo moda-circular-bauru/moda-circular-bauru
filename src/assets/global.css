@@ -30,6 +30,9 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+section {
+    padding: 64px 0;
+}
 /* Estilos globais adicionais */
 @media screen and (min-width: 1024px) {
     .only-mobile {
