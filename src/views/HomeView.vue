@@ -31,9 +31,6 @@
 </script>
 
 <style scoped>
-	.title {
-		margin-bottom: 16px;
-	}
 	.home__head {
 		margin-bottom: 32px;
 	}

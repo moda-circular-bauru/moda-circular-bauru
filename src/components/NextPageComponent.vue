@@ -49,7 +49,7 @@
         justify-content: flex-end;
         gap: 36px;
 
-        max-width: 250px;
+        max-width: 400px;
     }
 
     .next-page__link--text {
