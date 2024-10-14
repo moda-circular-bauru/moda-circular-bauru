@@ -2,7 +2,10 @@
     <header id="header">
         <div class="main-header container">
             <div class="main-header__mobile only-mobile">
-                <span>=</span>
+                <button class="mobile-menu-btn" @click="toggleMenu">
+                    <img src="images/svg/hamburgerMenu.svg" alt="Menu Mobile" width="20" height="20" v-if="!menuOpen"/>
+                    <img src="images/svg/closeMenu.svg" alt="Menu Mobile" width="20" height="20" v-else/>
+                </button>
             </div>
             <div class="main-header__logo">
                 <router-link to="/" class="logo">
@@ -20,12 +23,28 @@
             </nav>
         </div>
     </header>
+    <MobileMenu :isOpen="menuOpen" @close-menu="toggleMenu" />
 </template>
 
 <script>
+    import MobileMenu from './MobileMenu.vue';
+
     export default {
-        name: 'HeaderMenu',
-    }
+    name: 'HeaderMenu',
+        data() {
+            return {
+                menuOpen: false, // Controle para abrir ou fechar o menu mobile
+            };
+        },
+        components: {
+            MobileMenu
+        },
+        methods: {
+            toggleMenu() {
+                this.menuOpen = !this.menuOpen; // Alterna entre aberto e fechado
+            }
+        }
+    };
 </script>
 
 <style scoped>
@@ -88,7 +107,7 @@
         }
     }
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1023px) {
         .main-header .main-header__navigation-list--item {
             padding: 8px 8px;
         }

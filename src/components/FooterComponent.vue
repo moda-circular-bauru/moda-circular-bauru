@@ -3,11 +3,12 @@
         <div class="sub-footer"></div>
         <div class="container">
             <div class="footer">
-                <div class="footer__logo">
+                <!-- TODO: Validar com o grupo se seria válido ter a logo no footer -->
+                <!-- <div class="footer__logo">
                     <router-link to="/" class="logo">
                         <img class="logo" src="images/svg/vue-logo.svg" width="120" height="80" alt="Logo">
                     </router-link>
-                </div>
+                </div> -->
                 <div class="footer__text">
                     <p>Reportagem multimídia produzida como Trabalho de Conclusão de Curso</p>
                     <p>Jornalismo, Unesp/Bauru</p>
@@ -47,7 +48,8 @@
 
     .footer {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-columns: repeat(3, 1fr); */
+        grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         padding: 64px 0;
     }

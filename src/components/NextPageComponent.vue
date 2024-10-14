@@ -67,4 +67,16 @@
         font-size: 18px;
         font-weight: 700;
     }
+
+    @media screen and (max-width: 1023px) {
+        #next-page {
+            padding: 0 32px 64px 32px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        #next-page {
+            padding: 0 16px 64px 16px;
+        }
+    }
 </style>
