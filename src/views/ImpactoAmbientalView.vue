@@ -1,5 +1,5 @@
 <template>
-    <BannerComponent banner="/images/banner_desktop.webp" />
+    <BannerComponent banner="/images/banner_environment.webp" />
 
     <section id="impacto-ambiental">
         <div class="container">

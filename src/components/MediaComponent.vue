@@ -3,22 +3,24 @@
         <h2 class="title">{{ title }}</h2>
         <h3 class="subtitle">{{ subtitle }}</h3>
   
-        <div v-if="type === 'image'">
-            <img :src="source" :alt="alt" />
-        </div>
-  
-        <div v-else-if="type === 'audio'">
-            <audio controls>
-            <source :src="source" :type="audioType" />
-            Seu navegador não suporta áudio.
-            </audio>
-        </div>
-  
-        <div v-else-if="type === 'video'">
-            <video controls :width="width" :height="height">
-                <source :src="source" :type="videoType" />
-                Seu navegador não suporta vídeo.
-            </video>
+        <div style="margin-bottom: 16px;">
+            <div v-if="type === 'image'">
+                <img :src="source" :alt="alt" />
+            </div>
+      
+            <div v-else-if="type === 'audio'">
+                <audio controls>
+                <source :src="source" :type="audioType" />
+                Seu navegador não suporta áudio.
+                </audio>
+            </div>
+      
+            <div v-else-if="type === 'video'">
+                <video controls :width="width" :height="height">
+                    <source :src="source" :type="videoType" />
+                    Seu navegador não suporta vídeo.
+                </video>
+            </div>
         </div>
     </div>
 </template>
