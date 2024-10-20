@@ -1,5 +1,5 @@
 <template>
-  <BannerComponent banner="/images/banner_desktop.webp" />
+  <BannerComponent banner="/images/banner_bauru.webp" />
 
 <section id="bauru">
   <div class="container">

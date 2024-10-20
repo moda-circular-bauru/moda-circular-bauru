@@ -1,5 +1,5 @@
 <template>
-    <BannerComponent banner="/images/banner_desktop.webp" />
+    <BannerComponent banner="/images/banner_types.webp" />
 
     <section id="tipos-moda">
         <div class="container">
@@ -47,6 +47,7 @@
                 type="video"
                 source="/videos/test_video.mp4"
                 videoType="video/mp4"
+                width="100%"
             />
             <div style="margin-top: 16px; display: flex;">
                 <iframe width="1020"
