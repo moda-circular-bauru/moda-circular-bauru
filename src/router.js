@@ -5,6 +5,7 @@ import ImpactoAmbientalView from './views/ImpactoAmbientalView.vue';
 import TiposDeModaView from './views/TiposDeModaView.vue';
 import BauruView from './views/BauruView.vue';
 import SujeitoView from './views/SujeitoView.vue';
+import QuemSomosView from './views/QuemSomosView.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
@@ -12,6 +13,7 @@ const routes = [
   { path: '/tipos-de-moda', name: 'TiposDeModa', component: TiposDeModaView },
   { path: '/bauru', name: 'Bauru', component: BauruView },
   { path: '/sujeito', name: 'Sujeito', component: SujeitoView },
+  { path: '/quem-somos', name: 'QuemSomos', component: QuemSomosView },
 ];
 
 const router = createRouter({
