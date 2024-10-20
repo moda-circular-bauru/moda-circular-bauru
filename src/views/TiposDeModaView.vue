@@ -42,7 +42,7 @@
                     <p>A prática de troca de roupas, também conhecida como "clothing swap", é uma maneira colaborativa e sem custos de renovar o guarda-roupa. Muitas vezes organizadas em eventos comunitários ou por meio de plataformas digitais, essas trocas promovem o consumo consciente e a socialização entre os participantes. Nesses eventos, as pessoas trazem peças em bom estado que não usam mais e, em troca, escolhem novas peças para levar para casa. É uma ótima maneira de estender a vida útil das roupas sem gerar novos resíduos.</p>
                 </div>
             </div>
-            <MediaComponent
+            <!-- <MediaComponent
                 title="Vídeo Teste"
                 type="video"
                 source="/videos/test_video.mp4"
@@ -59,7 +59,7 @@
                     referrerpolicy="strict-origin-when-cross-origin"
                     allowfullscreen
                 ></iframe>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -70,14 +70,14 @@
 <script>
     import BannerComponent from '@/components/BannerComponent.vue';
     import NextPageComponent from '@/components/NextPageComponent.vue';
-	import MediaComponent from '@/components/MediaComponent.vue';
+	// import MediaComponent from '@/components/MediaComponent.vue';
 
     export default {
         name: 'TiposDeModaView',
         components: {
             BannerComponent,
             NextPageComponent,
-			MediaComponent,
+			// MediaComponent,
         }
     };
 </script>

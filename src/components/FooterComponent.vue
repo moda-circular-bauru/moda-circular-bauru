@@ -12,7 +12,6 @@
                     <p>Reportagem multimídia produzida como Trabalho de Conclusão de Curso</p>
                     <p>Jornalismo, Unesp/Bauru</p>
                 </div>
-                <!-- TODO: Validar com o grupo se seria válido ter a logo no footer -->
                 <nav class="footer__navigation">
                     <ul class="footer__navigation-list">
                         <li class="footer__navigation-list--title"><h5>Navegação</h5></li>
@@ -24,10 +23,11 @@
                     </ul>
                 </nav>
                 <div class="footer__undergraduates">
-                    <p>Elisa Romera</p>
-                    <p>Gabriela</p>
-                    <p>Giovanna</p>
-                    <p>Lara Duarta</p>
+                    <h5 class="footer__undergraduates--title">Grupo de Jornalismo</h5>
+                    <p class="footer__undergraduates--item">Elisa Romera</p>
+                    <p class="footer__undergraduates--item">Gabriela</p>
+                    <p class="footer__undergraduates--item">Giovanna</p>
+                    <p class="footer__undergraduates--item">Lara Duarta</p>
                 </div>
             </div>
         </div>
@@ -96,7 +96,8 @@
         align-items: start;
     }
 
-    .footer__navigation-list--title {
+    .footer__navigation-list--title,
+    .footer__undergraduates--title {
         margin-bottom: 8px;
     }
 

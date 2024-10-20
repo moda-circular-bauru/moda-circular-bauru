@@ -18,22 +18,11 @@
                 allow="autoplay"
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1938089780&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
-            <!-- <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-                <a href="https://soundcloud.com/jefinho-dietrich"
-                    title="Jefinho Dietrich"
-                    target="_blank"
-                    style="color: #cccccc; text-decoration: none;">Jefinho Dietrich</a> · 
-                <a href="https://soundcloud.com/jefinho-dietrich/gravacao_compradora"
-                    title="gravacao_compradora"
-                    target="_blank"
-                    style="color: #cccccc; text-decoration: none;">gravacao_compradora</a>
-            </div> -->
-            <!-- <MediaComponent
-                title="Trilha Sonora"
+            <MediaComponent
                 type="audio"
                 source="/audios/gravacao_compradora.mp3"
                 audioType="audio/mp3"
-            /> -->
+            />
         </div>
     </section>
     <NextPageComponent page-name="Tipos de moda circular" page-link="/tipos-de-moda" />
@@ -42,14 +31,14 @@
 <script>
 	import BannerComponent from '@/components/BannerComponent.vue';
 	import NextPageComponent from '@/components/NextPageComponent.vue';
-	// import MediaComponent from '@/components/MediaComponent.vue';
+	import MediaComponent from '@/components/MediaComponent.vue';
   
   export default {
     name: 'ImpactoAmbientalView',
     components: {
         BannerComponent,
         NextPageComponent,
-        // MediaComponent,
+        MediaComponent,
     }
 };
 </script>
