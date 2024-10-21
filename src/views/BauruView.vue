@@ -1,6 +1,5 @@
 <template>
-  <BannerComponent banner="/images/banner_bauru.webp" />
-
+    <BannerComponent banner="images/banner_bauru.webp" />
     <section id="bauru">
     <div class="container">
         <div class="bauru__head">
@@ -13,7 +12,7 @@
             <MediaComponent
                 title="Fluxo no bazar e adeptos"
                 type="video"
-                source="/videos/test_video.mp4"
+                source="videos/test_video.mp4"
                 videoType="video/mp4"
                 width="100%"
             />
@@ -23,7 +22,7 @@
             <MediaComponent
                 title="Fluxo no bazar e adeptos"
                 type="video"
-                source="/videos/test_video.mp4"
+                source="videos/test_video.mp4"
                 videoType="video/mp4"
                 width="100%"
             />
@@ -33,7 +32,7 @@
 				title="Burguesinha"
 				subtitle="Subtítulo"
 				type="image"
-				source="/images/test_image.webp"
+				source="images/test_image.webp"
                 width="100%"
 				alt="Moça"
 			/>
@@ -41,7 +40,7 @@
             <MediaComponent
                 title="Fluxo no bazar e adeptos"
                 type="video"
-                source="/videos/test_video.mp4"
+                source="videos/test_video.mp4"
                 videoType="video/mp4"
                 width="100%"
             />

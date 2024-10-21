@@ -1,5 +1,5 @@
 <template>
-    <BannerComponent banner="/images/banner_types.webp" />
+    <BannerComponent banner="images/banner_types.webp" />
 
     <section id="tipos-moda">
         <div class="container">
@@ -62,8 +62,6 @@
             </div> -->
         </div>
     </section>
-
-
     <NextPageComponent page-name="Bauru" page-link="/bauru" />
 </template>
 

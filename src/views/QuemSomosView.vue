@@ -1,6 +1,5 @@
 <template>
-    <BannerComponent banner="/images/banner_home.webp" />
-
+    <BannerComponent banner="images/banner_home.webp" />
 	<section id="about">
 		<div class="container">
 			<div class="about__head">
@@ -9,28 +8,28 @@
 			<MediaComponent
 				subtitle="Elisa"
 				type="video"
-				source="/videos/test_video.mp4"
+				source="videos/test_video.mp4"
 				alt="Elisa"
                 width="100%"
 			/>
 			<MediaComponent
 				subtitle="Gabriela"
 				type="video"
-				source="/videos/test_video.mp4"
+				source="videos/test_video.mp4"
 				alt="Gabriela"
                 width="100%"
 			/>
 			<MediaComponent
 				subtitle="Giovana"
 				type="video"
-				source="/videos/test_video.mp4"
+				source="videos/test_video.mp4"
 				alt="Giovana"
                 width="100%"
 			/>
 			<MediaComponent
 				subtitle="Lara"
 				type="video"
-				source="/videos/test_video.mp4"
+				source="videos/test_video.mp4"
 				alt="Lara"
                 width="100%"
 			/>

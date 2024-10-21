@@ -1,6 +1,5 @@
 <template>
-    <BannerComponent banner="/images/banner_environment.webp" />
-
+    <BannerComponent banner="images/banner_environment.webp" />
     <section id="impacto-ambiental">
         <div class="container">
             <div class="impacto-ambiental__head">
@@ -19,8 +18,9 @@
                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1938089780&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
             ></iframe>
             <MediaComponent
+                subtitle="Outro exemplo de áudio"
                 type="audio"
-                source="/audios/gravacao_compradora.mp3"
+                source="audios/gravacao_compradora.mp3"
                 audioType="audio/mp3"
             />
         </div>

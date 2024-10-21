@@ -3,15 +3,13 @@
         <div class="container">
             <div class="next-page">
                 <router-link :to="pageLink" class="next-page__link">
-
                     <div class="next-page__link--text">
                         <p class="next-page--body">Próxima página</p>
                         <p class="next-page--title">{{ pageName }}</p>
                     </div>
                     <div class="next-page__link--image">
-                        <img src="/images/svg/arrow-next.svg" alt="Next Page">
+                        <img src="images/svg/arrow-next.svg" alt="Next Page">
                     </div>
-
                 </router-link>
             </div>
         </div>
