@@ -3,6 +3,13 @@
     --primary-color: #E23131;
     --secondary-color: #E38282;
 
+    --color-1: #2b4743;
+    --color-2: #8c3839;
+    --color-3: #cedeeb;
+    --color-4: #da7073;
+    --color-5: #dda83f;
+    --color-6: #ffd3db;
+
     /* gray-scale colors */
     --color-white: #ffffff;
     --color-black: #000000;
@@ -14,13 +21,13 @@
     --color-gray-border: #203736;
 
     /* fonts variables */
-    --title-font: "Playfair Display Bold", serif;
-    --title-font-regular: "Playfair Display Regular", serif;
-    --text-font: "OpenSans Regular", serif;
-    --text-font-semibold: "OpenSans SemiBold", serif;
-    --heading-first-font-size: 40px;
-    --heading-second-font-size: 32px;
-    --heading-third-font-size: 24px;
+    --title-font: "Glacial Indifference Bold", sans-serif;
+    --title-weight: 700;
+    --text-font: "Hanken Grotesk", sans-serif;
+    --text-weight: 400;
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --h3-font-size: 24px;
     --text-font-size: 16px;
     --line-height: 125%;
 

@@ -1,5 +1,5 @@
 <template>
-    <BannerComponent banner="/moda-circular-bauru/images/banner_home.webp" />
+    <BannerComponent banner="images/banner_home.webp" />
 
 	<section id="home">
 		<div class="container">
@@ -11,29 +11,27 @@
 				<p>A moda circular, disponível em brechós e bazares em Bauru, tem ganhado força como uma segunda via que traz a sustentabilidade e a acessibilidade como pilares motrizes. Esse novo jeito de comprar propõe a reutilização de roupas e acessórios, prolongando a vida útil das peças e reduzindo a produção feroz da indústria têxtil. Além de ser uma escolha mais consciente do ponto de vista ambiental, ela também oferece o custo-benefício a itens de qualidade por preços mais baratos, permitindo que consumidores a explorem de maneira econômica e responsável.</p>
 				<p>No cinema, o cenário oniomaníaco já foi tema de comédia romântica. A Garota da Echarpe Verde do filme “Os Delírios e Consumos de Becky Bloom” é uma persona movida a um consumo de produtos fashion: bolsas, roupas e sapatos estampados nas vitrines de grandes lojas despertam um desejo veemente de comprar. A protagonista leva uma vida baseada num vício que, num primeiro momento, traz uma efêmera sensação de prazer, mas logo é impulsionada a gastar com as novas coleções e tendências do mercado. Para quem ama adquirir, essa subordinação também está atrelada a problemas paralelos, como a produção de lixo marcada pelo alto descarte de uma indústria insustentável. Embora essa informação não tenha sido retratada no longa, ela existe e é possível refletir sobre isso, não é mesmo?</p>
 			</div>
-			<!-- <MediaComponent
-				title="Dona do Brechó Share"
-				subtitle="Subtítulo"
-				type="image"
-				source="/images/test_image.webp"
-				alt="Moça"
-			/> -->
 		</div>
 	</section>
-    <NextPageComponent page-name="Impacto Ambiental" page-link="/impacto-ambiental" />
+	<section id="other-page">
+		<div class="container">
+			<div class="other-page">
+				<NextPageComponent page-name="Quem Somos" page-link="/quem-somos" :toNext="false" />
+				<NextPageComponent page-name="Impacto Ambiental" page-link="/impacto-ambiental" />
+			</div>
+		</div>
+	</section>
 </template>
   
 <script>
 	import BannerComponent from '@/components/BannerComponent.vue';
 	import NextPageComponent from '@/components/NextPageComponent.vue';
-	// import MediaComponent from '@/components/MediaComponent.vue';
 
 	export default {
 		name: 'HomeView',
 		components: {
 			BannerComponent,
 			NextPageComponent,
-			// MediaComponent,
 		}
     };
 </script>

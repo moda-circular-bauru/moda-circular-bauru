@@ -35,7 +35,14 @@
 			/>
 		</div>
 	</section>
-    <NextPageComponent page-name="Home" page-link="/" />
+    <section id="other-page">
+		<div class="container">
+			<div class="other-page">
+                <NextPageComponent page-name="Quem faz a moda circular?" page-link="/sujeito" :toNext="false"/>
+				<NextPageComponent page-name="Home" page-link="/" />
+			</div>
+		</div>
+	</section>
 </template>
   
 <script>

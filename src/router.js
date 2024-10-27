@@ -19,6 +19,10 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL || '/moda-circular-bauru/'),
   routes,
+  scrollBehavior() {
+        // Volta para o topo da página ao navegar
+        return { top: 0, behavior: 'smooth' }; // Rolagem suave até o topo
+  },
 });
 
 export default router;

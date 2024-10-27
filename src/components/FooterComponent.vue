@@ -6,7 +6,7 @@
                 <div class="footer__text">
                     <div class="footer__text__logo">
                         <router-link to="/" class="logo">
-                            <img class="logo" src="images/svg/vue-logo.svg" width="120" height="80" alt="Logo">
+                            <img class="logo" src="images/svg/logo.svg" width="120" height="80" alt="Logo">
                         </router-link>
                     </div>
                     <p>Reportagem multimídia produzida como Trabalho de Conclusão de Curso</p>
@@ -24,10 +24,10 @@
                 </nav>
                 <div class="footer__undergraduates">
                     <h5 class="footer__undergraduates--title">Grupo de Jornalismo</h5>
-                    <p class="footer__undergraduates--item">Elisa Romera</p>
-                    <p class="footer__undergraduates--item">Gabriela</p>
-                    <p class="footer__undergraduates--item">Giovanna</p>
-                    <p class="footer__undergraduates--item">Lara Duarta</p>
+                    <p class="footer__undergraduates--item">Elisa Romera De Freitas</p>
+                    <p class="footer__undergraduates--item">Gabriela Rufino Armelin</p>
+                    <p class="footer__undergraduates--item">Giovana Cordero Cerantola</p>
+                    <p class="footer__undergraduates--item">Lara Vitória Daniel Duarte</p>
                 </div>
             </div>
         </div>
@@ -48,12 +48,12 @@
     .sub-footer {
         width: 100%;
         height: 50px;
-        background-color: var(--primary-color);
+        background-color: var(--color-1);
     }
 
     #footer {
         width: 100%;
-        background-color: #D9D9D9;
+        background-color: var(--color-3);
     }
 
     .footer {
@@ -71,6 +71,7 @@
         display: flex;
         flex-direction: column;
         align-items: start;
+        gap: 8px;
     }
 
 
@@ -84,6 +85,7 @@
 
     .footer__navigation {
         align-items: center;
+        gap: 4px;
     }
 
     .footer__undergraduates {
@@ -98,16 +100,16 @@
 
     .footer__navigation-list--title,
     .footer__undergraduates--title {
+        color: var(--color-1);
         margin-bottom: 8px;
     }
 
     .footer__navigation-list--item {
-        transition: var(--transition);
+        color: var(--text-color);
     }
 
     .footer__navigation-list--item:hover {
-        color: var(--primary-color);
-        transition: var(--transition);
+        color: var(--color-1);
     }
 
     @media screen and (max-width: 767px) {

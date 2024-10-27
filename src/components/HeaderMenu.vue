@@ -9,7 +9,7 @@
             </div>
             <div class="main-header__logo">
                 <router-link to="/" class="logo">
-                    <img class="logo" src="images/svg/vue-logo.svg" width="120" height="80" alt="Logo">
+                    <img class="logo" src="images/svg/logo.svg" width="120" height="80" alt="Logo">
                 </router-link>
             </div>
             <nav class="main-header__navigation only-desktop">
@@ -19,6 +19,7 @@
                     <li class="main-header__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/bauru">Bauru</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/sujeito">Sujeito</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/quem-somos">Quem Somos</router-link></li>
                 </ul>
             </nav>
         </div>
@@ -50,7 +51,7 @@
 <style scoped>
     header#header {
         min-height: 80px;
-        background-color: #D9D9D9;
+        background-color: var(--color-3);
         box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 
         display: flex;
@@ -81,29 +82,29 @@
     }
     
     .main-header .main-header__navigation-list--item {
-        padding: 8px 32px;
+        padding: 8px 16px;
     }
 
     .main-header .main-header__navigation-list--item:not(:last-child) {
-        border-right: 1px solid black;
+        border-right: 2px solid var(--color-2);
     }
 
     .main-header .main-header__navigation-list--item a {
-        color: black;
+        color: var(--color-2);
         text-decoration: none;
         font-weight: 700;
         
-        padding: 30px 16px;
+        padding: 28px 16px;
     }
     
     .main-header .main-header__navigation-list--item a:hover,
     .main-header__navigation-list--item .router-link-active {
-        border-bottom: 3px solid black;
+        border-bottom: 3px solid var(--color-2);
     }
 
     @media screen and (max-width: 1200px) {
         .main-header .main-header__navigation-list--item {
-            padding: 8px 16px;
+            padding: 8px 4px;
         }
     }
 

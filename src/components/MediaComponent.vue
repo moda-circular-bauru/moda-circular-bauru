@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="title">{{ title }}</h2>
+        <h1 class="title">{{ title }}</h1>
         <h3 class="subtitle">{{ subtitle }}</h3>
   
         <div style="margin-bottom: 16px;">

@@ -1,3 +1,16 @@
+/* Fontes */
+@font-face {
+  font-family: 'Glacial Indifference Regular';
+  src: url('/public/fonts/GlacialIndifference-Regular.otf') format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Glacial Indifference Bold';
+  src: url('/public/fonts/GlacialIndifference-Bold.otf') format('truetype');
+  font-weight: bold;
+}
+
 /* Reset básico de estilo */
 *,
 *::before,
@@ -67,36 +80,45 @@ h1, h2, h3, h4, h5, h6, p, span {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--title-font);
-  font-weight: 700;
+  font-weight: var(--title-weight);
 }
 
 h1 {
-  font-size: var(--heading-first-font-size);
+  font-size: var(--h1-font-size);
 }
 
 h2 {
-  font-size: var(--heading-second-font-size);
+  font-size: var(--h2-font-size);
 }
 
 h3 {
-  font-size: var(--heading-third-font-size);
+  font-size: var(--h3-font-size);
 }
 
-
-p, span {
+p, span, a {
   font-family: var(--text-font);
   font-size: var(--text-font-size);
+  font-weight: var(--text-weight);
 }
 
 .title {
-    color: var(--primary-color);
+    color: var(--color-2);
     margin-bottom: 16px;
 }
 
 .subtitle {
-    color: var(--secondary-color);
+    color: var(--color-4);
     font-weight: 400;
     margin-bottom: 16px;
+}
+
+#other-page {
+    padding-top: 0;
+}
+
+.other-page {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 1024px) {
@@ -131,4 +153,12 @@ p, span {
     h3 {
         font-size: 24px;
     }      
+}
+
+@media screen and (max-width: 450px) {
+    .other-page {
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    }
 }

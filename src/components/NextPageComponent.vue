@@ -1,19 +1,20 @@
 <template>
-    <section id="next-page">
+    <div id="next-page">
         <div class="container">
-            <div class="next-page">
+            <div class="next-page" :class="toNext ? 'next' : 'previous'">
                 <router-link :to="pageLink" class="next-page__link">
                     <div class="next-page__link--text">
-                        <p class="next-page--body">Próxima página</p>
+                        <p class="next-page--body" v-if="toNext">Próxima página</p>
+                        <p class="next-page--body" v-else>Página anterior</p>
                         <p class="next-page--title">{{ pageName }}</p>
                     </div>
                     <div class="next-page__link--image">
-                        <img src="images/svg/arrow-next.svg" alt="Next Page">
+                        <img src="images/svg/arrow-next.svg" :alt="'To page ' + pageName">
                     </div>
                 </router-link>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -27,6 +28,10 @@
             pageLink: {
                 type: String,
                 required: true,
+            },
+            toNext: {
+                type: Boolean,
+                default: true,
             }
         }
     }
@@ -34,7 +39,14 @@
 
 <style scoped>
     #next-page {
-        padding: 0 0 64px 0;
+        padding: 8px;
+        border-radius: 10px;
+        transition: var(--transition);
+    }
+    
+    #next-page:hover {
+        box-shadow: 1px 0 10px rgba(0, 0, 0, 0.1);
+        transition: var(--transition);
     }
 
     .next-page {
@@ -45,7 +57,7 @@
     .next-page__link {
         display: flex;
         justify-content: flex-end;
-        gap: 36px;
+        gap: 12px;
 
         max-width: 400px;
     }
@@ -61,20 +73,24 @@
         text-align: end;
     }
 
+    .next-page__link--text .next-page--title {
+        color: var(--color-4);
+    }
+
     .next-page--title {
         font-size: 18px;
         font-weight: 700;
     }
 
-    @media screen and (max-width: 1023px) {
-        #next-page {
-            padding: 0 32px 64px 32px;
-        }
+    .next-page.previous .next-page__link {
+        flex-direction: row-reverse;
     }
 
-    @media screen and (max-width: 767px) {
-        #next-page {
-            padding: 0 16px 64px 16px;
-        }
+    .next-page.previous .next-page__link--text {
+        align-items: flex-start;
+    }
+
+    .next-page.previous .next-page__link--image img {
+        transform: rotate(180deg);
     }
 </style>
