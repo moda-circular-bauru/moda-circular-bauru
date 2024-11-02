@@ -9,7 +9,7 @@
             </div>
             <div class="main-header__logo">
                 <router-link to="/" class="logo">
-                    <img class="logo" src="images/svg/logo.svg" width="120" height="80" alt="Logo">
+                    <img class="logo" src="images/svg/logo.svg" width="105" height="70" alt="Logo">
                 </router-link>
             </div>
             <nav class="main-header__navigation only-desktop">
@@ -17,8 +17,8 @@
                     <li class="main-header__navigation-list--item"><router-link to="/">Home</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/impacto-ambiental">Impacto Ambiental</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
-                    <li class="main-header__navigation-list--item"><router-link to="/bauru">Bauru</router-link></li>
-                    <li class="main-header__navigation-list--item"><router-link to="/sujeito">Sujeito</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/bauru">Em Bauru</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/sujeito">Quem faz a moda</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/quem-somos">Quem Somos</router-link></li>
                 </ul>
             </nav>
@@ -51,11 +51,13 @@
 <style scoped>
     header#header {
         min-height: 80px;
-        background-color: var(--color-3);
-        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: var(--color-6);
 
         display: flex;
         align-items: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        position: relative;
+        z-index: 20;
     }
 
     .main-header {
@@ -93,8 +95,9 @@
         color: var(--color-2);
         text-decoration: none;
         font-weight: 700;
+        font-size: 18px;
         
-        padding: 28px 16px;
+        padding: 28px 0px;
     }
     
     .main-header .main-header__navigation-list--item a:hover,
@@ -102,17 +105,13 @@
         border-bottom: 3px solid var(--color-2);
     }
 
-    @media screen and (max-width: 1200px) {
+    @media screen and (max-width: 1199px) {
         .main-header .main-header__navigation-list--item {
-            padding: 8px 4px;
+            padding: 8px 7px;
         }
     }
 
     @media screen and (max-width: 1023px) {
-        .main-header .main-header__navigation-list--item {
-            padding: 8px 8px;
-        }
-        
         .main-header .main-header__mobile {
             display: flex;
             align-items: center;

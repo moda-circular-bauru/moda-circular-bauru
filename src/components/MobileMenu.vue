@@ -56,7 +56,7 @@ export default {
         align-items: center;
         gap: 48px;
 
-        background-color: #efefef;
+        background-color: var(--color-6);
         width: 100%;
         position: absolute;
         top: 80px;
@@ -121,11 +121,18 @@ export default {
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #cfcfcf;
+        background-color: var(--color-4);
         border-radius: 100%;
 
         width: 120px;
         height: 120px;
+    }
+
+    .mobile-menu__row--link a {
+        font-size: 18px;
+        color: var(--color-6);
+        font-weight: 700;
+        max-width: 100px;
     }
 
     .mobile-menu__row--title {
@@ -133,6 +140,10 @@ export default {
         justify-content: center;
         align-items: center;
         width: 150px;
+    }
+
+    .mobile-menu__row--title .title {
+        margin-bottom: 0;
     }
 
     .mobile-menu__row--title .title{

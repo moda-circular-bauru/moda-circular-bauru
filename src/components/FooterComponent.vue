@@ -9,7 +9,7 @@
                             <img class="logo" src="images/svg/logo.svg" width="120" height="80" alt="Logo">
                         </router-link>
                     </div>
-                    <p>Reportagem multimídia produzida como Trabalho de Conclusão de Curso</p>
+                    <p>Reportagem Multimídia produzida como Trabalho de Conclusão de Curso</p>
                     <p>Jornalismo, Unesp/Bauru</p>
                 </div>
                 <nav class="footer__navigation">
@@ -18,8 +18,8 @@
                         <li class="footer__navigation-list--item"><router-link to="/">Home</router-link></li>
                         <li class="footer__navigation-list--item"><router-link to="/impacto-ambiental">Impacto Ambiental</router-link></li>
                         <li class="footer__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
-                        <li class="footer__navigation-list--item"><router-link to="/bauru">Bauru</router-link></li>
-                        <li class="footer__navigation-list--item"><router-link to="/sujeito">Sujeito</router-link></li>
+                        <li class="footer__navigation-list--item"><router-link to="/bauru">Em Bauru</router-link></li>
+                        <li class="footer__navigation-list--item"><router-link to="/sujeito">Quem faz a moda</router-link></li>
                     </ul>
                 </nav>
                 <div class="footer__undergraduates">
@@ -48,12 +48,12 @@
     .sub-footer {
         width: 100%;
         height: 50px;
-        background-color: var(--color-1);
+        background-color: var(--color-2);
     }
 
     #footer {
         width: 100%;
-        background-color: var(--color-3);
+        background-color: var(--color-6);
     }
 
     .footer {
@@ -100,16 +100,18 @@
 
     .footer__navigation-list--title,
     .footer__undergraduates--title {
-        color: var(--color-1);
+        color: var(--color-2);
         margin-bottom: 8px;
     }
 
-    .footer__navigation-list--item {
-        color: var(--text-color);
+    .footer .footer__text p,
+    .footer__navigation-list--item,
+    .footer__undergraduates--item {
+        color: var(--color-4);
     }
 
     .footer__navigation-list--item:hover {
-        color: var(--color-1);
+        color: var(--color-2);
     }
 
     @media screen and (max-width: 767px) {
