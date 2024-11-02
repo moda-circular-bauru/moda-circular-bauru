@@ -12,7 +12,7 @@
                 <p>Também é uma das maiores consumidoras de água. De acordo com a Ellen MacArthur Foundation, a produção de roupas e tecidos consome 93 bilhões de metros cúbicos de água anualmente, o equivalente a 37 milhões de piscinas olímpicas. Desde o cultivo de fibras naturais até o processo de lavagem e tingimento, a quantidade de água utilizada é enorme, não obstante a utilização de produtos químicos na produção contamina fontes de água, afetando a qualidade da água e a vida aquática.</p>
 				<MediaComponent
                     type="video"
-                    source="videos/2_enviroment_impact.mov"
+                    source="videos/2_enviroment_impact.mp4"
                     alt="Julia Helena Galante Fast fashion e o impacto ambiental"
                     width="100%"
                     height="100%"
@@ -22,7 +22,7 @@
                 <p>Lá, as roupas de segunda mão chegam da Europa para serem comercializadas, as que não são vendidas, são descartadas em solo chileno. A estimativa é que 60 mil toneladas chegam todos os anos por conta dessa dinâmica de mercado e de um consumo excessivo.</p>
                 <MediaComponent
                     type="video"
-                    source="videos/3_Atacama_desert.mov"
+                    source="videos/3_Atacama_desert.mp4"
                     alt="Julia Helena Galante Deserto do Atacama"
                     width="100%"
                     height="100%"

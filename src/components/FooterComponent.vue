@@ -53,7 +53,7 @@
 
     #footer {
         width: 100%;
-        background-color: var(--color-6);
+        background-color: var(--color-3);
     }
 
     .footer {

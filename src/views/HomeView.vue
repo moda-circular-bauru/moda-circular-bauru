@@ -25,7 +25,7 @@
 				<h4 class="highlight-text">“Os benefícios socioambientais da moda circular são muitos, ela promove um ciclo regenerativo de produção e de consumo, reduz o uso de recursos naturais extraídos, reutilizando produtos, reutilizando os materiais, e isso acaba sendo economicamente viável”</h4>
 				<MediaComponent
                     type="video"
-                    source="videos/1_economy_and_fashion_teste.mov"
+                    source="videos/1_economy_and_fashion.mp4"
                     alt="Julia Helena Galante Economia circular e moda circular"
                     width="100%"
 					height="100%"
@@ -47,7 +47,7 @@
 				<p>Nesse sistema, mesmo iniciativas ambientalistas, como a moda circular, podem ser roubadas e transformadas em uma forma de identidade, de maneira que é criada uma grande glamourização por trás de um consumo sustentável. Júlia Galante explica:</p>
 				<MediaComponent
                     type="video"
-                    source="videos/4_bazar_glamour.mov"
+                    source="videos/4_bazar_glamour.mp4"
                     alt="Julia Helena Galante Glamourização dos Brechós"
                     width="100%"
 					height="100%"

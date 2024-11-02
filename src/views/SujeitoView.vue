@@ -19,7 +19,7 @@
                     />
                     <MediaComponent
                         type="video"
-                        source="videos/nubia_serving_customer.mov"
+                        source="videos/nubia_serving_customer.mp4"
                         alt="Núbia Atendendo um Cliente"
                         width="100%"
                         height="100%"
@@ -44,7 +44,7 @@
                     />
                     <MediaComponent
                         type="video"
-                        source="videos/burguesinha_reels.mov"
+                        source="videos/burguesinha_reels.mp4"
                         alt="Reels da Burguesinha's"
                         width="100%"
                         height="100%"

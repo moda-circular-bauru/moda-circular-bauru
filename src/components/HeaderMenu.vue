@@ -51,7 +51,7 @@
 <style scoped>
     header#header {
         min-height: 80px;
-        background-color: var(--color-6);
+        background-color: var(--color-3);
 
         display: flex;
         align-items: center;

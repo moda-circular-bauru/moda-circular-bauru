@@ -9,7 +9,7 @@
 				<MediaComponent
 					subtitle="Elisa"
 					type="video"
-					source="videos/presentation_elisa.mov"
+					source="videos/presentation_elisa.mp4"
 					alt="Elisa"
 					width="100%"
 					height="100%"
@@ -17,7 +17,7 @@
 				<MediaComponent
 					subtitle="Gabriela"
 					type="video"
-					source="videos/presentation_gabriela.mov"
+					source="videos/presentation_gabriela.mp4"
 					alt="Gabriela"
 					width="100%"
 					height="100%"
@@ -25,7 +25,7 @@
 				<MediaComponent
 					subtitle="Giovana"
 					type="video"
-					source="videos/presentation_giovana.mov"
+					source="videos/presentation_giovana.mp4"
 					alt="Giovana"
 					width="100%"
 					height="100%"
@@ -33,17 +33,10 @@
 				<MediaComponent
 					subtitle="Lara"
 					type="video"
-					source="videos/presentation_lara.mov"
+					source="videos/presentation_lara.mp4"
 					alt="Lara"
 					width="100%"
 					height="100%"
-				/>
-				<MediaComponent
-					subtitle="Giovana"
-					type="video"
-					source="videos/test_video.mp4"
-					alt="Giovana"
-					width="100%"
 				/>
 			</div>
 		</div>
@@ -90,7 +83,7 @@
 		}
 	}
 	
-	@media screen and (max-width: 599px) {
+	@media screen and (max-width: 767px) {
 		.about__body {
 			grid-template-columns: repeat(1, 1fr);
 		}

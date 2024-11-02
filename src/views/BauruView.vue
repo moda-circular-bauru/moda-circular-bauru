@@ -13,7 +13,7 @@
 				<p>Um dos mais conhecidos é o Bazar Centro Espírita Chico Xavier, localizado próximo a avenida Nuno de Assis, que recebe doação de roupas e outros itens no próprio centro ou nos horários de funcionamento do bazar. Às terças-feiras e sábados, um grupo de voluntárias reserva parte de seu dia para separar as roupas, selecionando quais estão em boas condições de uso e podem seguir no bazar, quais não estão em condição de venda e serão doadas e quais peças são para descarte.</p>
                 <MediaComponent
                     type="video"
-                    source="videos/5_chico_xavier.mov"
+                    source="videos/5_chico_xavier.mp4"
                     alt="Helen Mayer Chico Xavier"
                     width="100%"
                     height="100%"
@@ -42,7 +42,7 @@
                 <p>Enquanto uma franquia de moda atual feminina, o brechó possui algumas restrições quanto ao tipo de peças que podem ser comercializadas, respeitando as peças que estão em alta no momento e, claro, o seu estado de conservação. Peças sujas, rasgadas, com falhas de costura, vintages, por exemplo, não são compradas pelo brechó.</p>
                 <MediaComponent
                     type="video"
-                    source="videos/7_burguesinha.mov"
+                    source="videos/7_burguesinha.mp4"
                     alt="Burguesinha"
                     width="100%"
                     height="100%"
@@ -52,7 +52,7 @@
                 <p>O lema da marca é que ao invés de comprar uma peça para usar uma única vez, é possível alugá-la, compartilhando o guarda-roupa, estando bem vestida e, ainda, dentro do orçamento. A loja fica próxima à Avenida Orlando Ranieri, na casa da proprietária.</p>
                 <MediaComponent
                     type="video"
-                    source="videos/8_share.mov"
+                    source="videos/8_share.mp4"
                     alt="Share"
                     width="100%"
                     height="100%"
