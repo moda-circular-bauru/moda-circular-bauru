@@ -5,42 +5,40 @@
 			<div class="about__head">
 				<h1 class="title">Quem somos</h1>
 			</div>
-			<!-- TODO: Inserir vídeo 9 -->
-			<p>Inserir vídeo 9</p>
-			<MediaComponent
-				subtitle="Elisa"
-				type="video"
-				source="videos/test_video.mp4"
-				alt="Elisa"
-				width="100%"
-			/>
-			<!-- TODO: Inserir vídeo 9 -->
-			<p>Inserir vídeo 9</p>
-			<MediaComponent
-				subtitle="Gabriela"
-				type="video"
-				source="videos/test_video.mp4"
-				alt="Gabriela"
-				width="100%"
-			/>
-			<!-- TODO: Inserir vídeo 9 -->
-			<p>Inserir vídeo 9</p>
-			<MediaComponent
-				subtitle="Giovana"
-				type="video"
-				source="videos/test_video.mp4"
-				alt="Giovana"
-				width="100%"
-			/>
-			<!-- TODO: Inserir vídeo 9 -->
-			<p>Inserir vídeo 9</p>
-			<MediaComponent
-				subtitle="Lara"
-				type="video"
-				source="videos/test_video.mp4"
-				alt="Lara"
-				width="100%"
-			/>
+			<div class="about__body">
+				<MediaComponent
+					subtitle="Elisa"
+					type="video"
+					source="videos/presentation_elisa.mov"
+					alt="Elisa"
+					width="100%"
+					height="100%"
+				/>
+				<MediaComponent
+					subtitle="Gabriela"
+					type="video"
+					source="videos/presentation_gabriela.mov"
+					alt="Gabriela"
+					width="100%"
+					height="100%"
+				/>
+				<MediaComponent
+					subtitle="Giovana"
+					type="video"
+					source="videos/presentation_giovana.mov"
+					alt="Giovana"
+					width="100%"
+					height="100%"
+				/>
+				<MediaComponent
+					subtitle="Lara"
+					type="video"
+					source="videos/presentation_lara.mov"
+					alt="Lara"
+					width="100%"
+					height="100%"
+				/>
+			</div>
 		</div>
 	</section>
 	<section id="other-page">
@@ -69,7 +67,25 @@
 </script>
 
 <style scoped>
-	.home__head {
+	.about__head {
 		margin-bottom: 32px;
+	}
+
+	.about__body {
+		display: grid;
+		gap: 16px;
+		grid-template-columns: repeat(4, 1fr);
+	}
+	
+	@media screen and (max-width: 1199px) {
+		.about__body {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	
+	@media screen and (max-width: 599px) {
+		.about__body {
+			grid-template-columns: repeat(1, 1fr);
+		}
 	}
 </style>

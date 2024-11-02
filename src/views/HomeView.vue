@@ -23,8 +23,13 @@
 				<p>A gestora ambiental e especialista em meio ambiente e sustentabilidade, Júlia Helena Galante, explica que “a roupa sustentável é a que já existe”, isso porque não existe um déficit de roupas no mundo.</p>
 				<p>Na verdade, há um excedente exorbitante, que indica que, se distribuídas entre todas as pessoas do planeta as peças produzidas dentro de um ano, todos sairiam com vinte peças a mais em seus guarda-roupas. São mais de 4000 peças produzidas por segundo.</p>
 				<h4 class="highlight-text">“Os benefícios socioambientais da moda circular são muitos, ela promove um ciclo regenerativo de produção e de consumo, reduz o uso de recursos naturais extraídos, reutilizando produtos, reutilizando os materiais, e isso acaba sendo economicamente viável”</h4>
-				<!-- TODO: Inserir video 1 -->
-				<p>Inserir video 1</p>
+				<MediaComponent
+                    type="video"
+                    source="videos/1_economy_and_fashion.mov"
+                    alt="Julia Helena Galante Economia circular e moda circular"
+                    width="100%"
+					height="100%"
+                />
 				<p>Mas então, por que é que continuamos produzindo em tão alta escala?</p>
 				<h3 class="subtitle">Os delírios de consumo</h3>
 				<p>A Garota da Echarpe Verde do filme “Os Delírios e Consumos de Becky Bloom” é uma persona movida a um consumo de produtos fashion: bolsas, roupas e sapatos estampados nas vitrines de grandes lojas despertam um desejo veemente de comprar.</p>
@@ -40,8 +45,13 @@
 				<h4 class="highlight-text">"O capitalismo moderno cria consumidores que são ao mesmo tempo privilegiados e vulneráveis. Aqueles que não podem participar do consumo são excluídos, marginalizados e tratados como falhas do sistema."</h4>
 				<p>Por isso, mesmo sendo de conhecimento geral que os padrões de consumo são prejudiciais em todas as esferas — na economia, na sociedade e no meio-ambiente — ele se perpetua de maneira sustentada pelo sistema, de maneira que o mercado alimenta o padrão de consumo e vice-versa.</p>
 				<p>Nesse sistema, mesmo iniciativas ambientalistas, como a moda circular, podem ser roubadas e transformadas em uma forma de identidade, de maneira que é criada uma grande glamourização por trás de um consumo sustentável. Júlia Galante explica:</p>
-				<!-- TODO: Inserir video 4 -->
-				<p>Inserir video 4</p>
+				<MediaComponent
+                    type="video"
+                    source="videos/4_bazar_glamour.mov"
+                    alt="Julia Helena Galante Glamourização dos Brechós"
+                    width="100%"
+					height="100%"
+                />
 			</div>
 		</div>
 	</section>
@@ -58,12 +68,14 @@
 <script>
 	import BannerComponent from '@/components/BannerComponent.vue';
 	import NextPageComponent from '@/components/NextPageComponent.vue';
+	import MediaComponent from '@/components/MediaComponent.vue';
 
 	export default {
 		name: 'HomeView',
 		components: {
 			BannerComponent,
 			NextPageComponent,
+			MediaComponent,
 		}
     };
 </script>

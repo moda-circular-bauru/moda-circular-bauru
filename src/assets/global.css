@@ -210,7 +210,7 @@ h4.highlight-text {
     }      
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     .other-page {
         flex-direction: column;
         align-items: center;

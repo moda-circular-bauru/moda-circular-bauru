@@ -6,7 +6,7 @@
                 <div class="footer__text">
                     <div class="footer__text__logo">
                         <router-link to="/" class="logo">
-                            <img class="logo" src="images/svg/logo.svg" width="120" height="80" alt="Logo">
+                            <img class="logo" src="images/logo.jpg" width="80" height="80" alt="Logo">
                         </router-link>
                     </div>
                     <p>Reportagem Multimídia produzida como Trabalho de Conclusão de Curso</p>

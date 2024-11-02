@@ -9,7 +9,7 @@
             </div>
       
             <div v-else-if="type === 'audio'">
-                <audio controls>
+                <audio :width="width" controls>
                 <source :src="source" :type="audioType" />
                 Seu navegador não suporta áudio.
                 </audio>

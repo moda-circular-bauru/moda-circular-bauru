@@ -9,7 +9,7 @@
             </div>
             <div class="main-header__logo">
                 <router-link to="/" class="logo">
-                    <img class="logo" src="images/svg/logo.svg" width="105" height="70" alt="Logo">
+                    <img class="logo" src="images/logo.jpg" width="70" height="70" alt="Logo">
                 </router-link>
             </div>
             <nav class="main-header__navigation only-desktop">

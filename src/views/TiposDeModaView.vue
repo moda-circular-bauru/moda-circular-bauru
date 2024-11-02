@@ -52,30 +52,22 @@
                     <h3 class="subtitle">Troca</h3>
                     <p>A troca de roupas é uma modalidade da moda circular que promove a prática de compartilhar e trocar peças entre indivíduos, incentivando o uso prolongado e a reutilização de itens. Essa prática pode ocorrer de diversas formas, como em eventos de trocas, plataformas online ou grupos comunitários, onde as pessoas se reúnem para oferecer peças que não utilizam mais em troca de outras que atendam suas necessidades.</p>
                     <p>Além de proporcionar uma alternativa econômica e sustentável para adquirir roupas, a troca fomenta um estilo de vida mais consciente, permitindo que os indivíduos reflitam sobre suas escolhas de consumo. Essa prática reduz a demanda por novas produções e minimiza a quantidade de resíduos têxteis, já que as peças trocadas ganham uma nova vida nas mãos de outros.</p>
-                    <!-- TODO: Inserir Dicionário 1 -->
-                    <p>Inserir Dicionário 1</p>
-                    <!-- TODO: Inserir Dicionário 2 -->
-                    <p>Inserir Dicionário 2</p>
+                    <div class="troca__dictionaries--image-block">
+                        <MediaComponent
+                            type="image"
+                            source="images/dictionary1.jpg"
+                            alt="Dicionario 1"
+                            width="100%"
+                        />
+                        <MediaComponent
+                            type="image"
+                            source="images/dictionary2.jpg"
+                            alt="Dicionario 2"
+                            width="100%"
+                        />
+                    </div>
                 </div>
             </div>
-            <!-- <MediaComponent
-                title="Vídeo Teste"
-                type="video"
-                source="/videos/test_video.mp4"
-                videoType="video/mp4"
-                width="100%"
-            />
-            <div style="margin-top: 16px; display: flex;">
-                <iframe width="1020"
-                    height="650"
-                    src="https://www.youtube.com/embed/zVsEIYAnqQg?si=KsmPNbER7FKJ7T6d"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                ></iframe>
-            </div> -->
         </div>
     </section>
     <section id="other-page">
@@ -91,14 +83,14 @@
 <script>
     import BannerComponent from '@/components/BannerComponent.vue';
     import NextPageComponent from '@/components/NextPageComponent.vue';
-	// import MediaComponent from '@/components/MediaComponent.vue';
+	import MediaComponent from '@/components/MediaComponent.vue';
 
     export default {
         name: 'TiposDeModaView',
         components: {
             BannerComponent,
             NextPageComponent,
-			// MediaComponent,
+			MediaComponent,
         }
     };
 </script>
@@ -115,4 +107,21 @@
 	.tipos-moda__body .types:not(:last-child) {
 	margin-bottom: 32px;
 	}
+    
+    .troca__dictionaries--image-block {
+        display: flex;
+        gap: 16px;
+    }
+    
+    @media screen and (max-width: 991px) {
+        .troca__dictionaries--image-block {
+            flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .troca__dictionaries--image-block {
+            flex-direction: column;
+        }
+    }
 </style>
