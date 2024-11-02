@@ -112,6 +112,11 @@ p, span, a {
     margin-bottom: 16px;
 }
 
+h4.highlight-text {
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
 #other-page {
     padding-top: 0;
 }
@@ -120,6 +125,52 @@ p, span, a {
     display: flex;
     justify-content: space-between;
 }
+
+.link-default {
+  color: var(--color-4);
+  text-decoration: none;
+  position: relative;
+  transition: var(--transition);
+}
+
+.link-default::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Ajuste a posição vertical do underline */
+  width: 0;
+  height: 2px; /* Ajuste a espessura da linha */
+  background-color: var(--color-4);
+  transition: var(--transition); /* Animação do underline */
+}
+
+.link-default::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: var(--color-6);
+  z-index: -1;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.link-default:hover {
+  color: var(--color-2);
+}
+
+.link-default:hover::after {
+  width: 100%; /* Expande o underline */
+  background-color: var(--color-2);
+}
+
+.link-default:hover::before {
+  opacity: 0.5; /* Ajuste a opacidade para destacar o highlight */
+}
+
+
 
 @media screen and (min-width: 1024px) {
     .only-mobile {
