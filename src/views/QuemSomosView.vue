@@ -38,6 +38,13 @@
 					width="100%"
 					height="100%"
 				/>
+				<MediaComponent
+					subtitle="Giovana"
+					type="video"
+					source="videos/test_video.mp4"
+					alt="Giovana"
+					width="100%"
+				/>
 			</div>
 		</div>
 	</section>

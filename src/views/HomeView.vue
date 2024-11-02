@@ -25,7 +25,7 @@
 				<h4 class="highlight-text">“Os benefícios socioambientais da moda circular são muitos, ela promove um ciclo regenerativo de produção e de consumo, reduz o uso de recursos naturais extraídos, reutilizando produtos, reutilizando os materiais, e isso acaba sendo economicamente viável”</h4>
 				<MediaComponent
                     type="video"
-                    source="videos/1_economy_and_fashion.mov"
+                    source="videos/1_economy_and_fashion_teste.mov"
                     alt="Julia Helena Galante Economia circular e moda circular"
                     width="100%"
 					height="100%"
