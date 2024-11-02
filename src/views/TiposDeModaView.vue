@@ -6,7 +6,7 @@
             <div class="tipos-moda__head">
                 <h1 class="title">Tipos de moda circular</h1>
                 <p>Nos últimos anos, com o crescimento da conscientização sobre as mudanças climáticas e a necessidade urgente de práticas mais sustentáveis, o conceito de moda circular vem ganhando cada vez mais força. Diferente do modelo tradicional de produção e descarte, a moda circular propõe um ciclo contínuo de reutilização, renovação e reciclagem de roupas e acessórios, minimizando o desperdício e prolongando a vida útil das peças.</p>
-                <p>Neste cenário, diversas alternativas à compra de roupas novas têm surgido, oferecendo aos consumidores uma maneira mais consciente e responsável de se vestir. Mas, afinal, quais são essas alternativas? A seguir, exploramos os principais tipos de moda circular que estão transformando o mercado e o modo como consumimos moda.</p>
+                <p>Neste cenário, diversas alternativas à compra de roupas novas têm surgido, oferecendo aos consumidores uma maneira mais consciente e responsável de se vestir. Mas, afinal, quais são essas alternativas? A seguir, exploramos os principais tipos de moda circular que estão transformando o mercado e a forma como consumimos moda.</p>
             </div>
             <div class="tipos-moda__body">
                 <div class="tipos-moda__body--brechos types">
@@ -17,29 +17,45 @@
                 </div>
                 <div class="tipos-moda__body--aluguel types">
                     <h3 class="subtitle">Aluguel</h3>
-                    <p>Existem plataformas e lojas que alugam peças de roupas para eventos específicos ou para uso diário. Essa modalidade é uma tendência crescente no setor da moda, principalmente para ocasiões especiais, como casamentos e eventos de gala. Contudo, o conceito tem se expandido para o uso diário também, permitindo que as pessoas experimentem diferentes estilos sem o compromisso de uma compra definitiva.</p>
-                    <p>Dessa forma é possível não apenas reduzir o desperdício, mas também democratizar o acesso a peças de alta costura ou marcas de luxo.</p>
+                    <p>O aluguel de roupas é uma modalidade da moda circular que promove o acesso a peças especiais sem a necessidade de compra. Nesse modelo, as pessoas podem usar roupas para ocasiões específicas, como eventos e festas, ou até mesmo tarefas casuais, e devolvê-las após o uso. Essa prática evita o acúmulo de peças no guarda-roupa, prolonga a vida útil das roupas e reduz o consumo excessivo.</p>
+                    <p>Essa alternativa também é vantajosa do ponto de vista econômico e ambiental, pois diminui o impacto da produção e descarte de roupas, um dos grandes problemas da moda tradicional. Ao alugar uma peça, o consumidor opta por um consumo mais consciente, acessando itens de alta qualidade ou tendências de moda de forma acessível e democrática, sem os custos e desperdícios de uma aquisição definitiva.</p>
+                    <p>Além disso, o aluguel de roupas ajuda a impulsionar uma cultura de menor apego ao material e maior apreço pela experiência e variedade. Essa prática permite explorar novos estilos sem comprometer o espaço no armário ou os recursos naturais.</p>
                 </div>
                 <div class="tipos-moda__body--upcycling types">
                     <h3 class="subtitle">Upcycling</h3>
-                    <p>Reutilização criativa de peças antigas para criar novos produtos. Pode incluir a transformação de roupas ou tecidos em novas peças com design diferente. O objetivo do upcycling é dar uma nova vida a peças antigas e danificadas, transformando-as em algo completamente novo e, muitas vezes, de maior valor. Diferente da reciclagem, essa modalidade preserva a estrutura original da peça, adicionando novos elementos de design ou combinando tecidos de maneiras inovadoras.</p>
+                    <p>O upcycling é uma prática da moda circular que transforma roupas e materiais descartados em peças novas e exclusivas, agregando valor novamente à peça. Diferente da reciclagem comum, em que o material é quebrado para ser reutilizado, o upcycling preserva os materiais existentes e utiliza criatividade e técnicas de design para reinventá-los. Todo esse processo evita o desperdício, prolonga a vida útil dos tecidos e reduz a necessidade de uso novas matérias-primas, beneficiando diretamente o meio ambiente.</p>
+                    <p>Além dos benefícios ambientais, essa modalidade permite uma conexão única entre o consumidor e a peça, já que cada item transformado conta uma história e possui características exclusivas.</p>
+                    <p>A prática vem ganhando espaço na moda, especialmente entre os consumidores que buscam autenticidade e personalização em suas roupas. Marcas e designers também têm explorado o upcycling para lançar coleções únicas, com peças que se destacam pelo estilo e pela responsabilidade ecológica.</p>
+                    <p>Exemplo: um par de jeans antigos pode ser cortado e transformado em shorts, com a adição de detalhes como bordados, patches ou rendas para personalização.</p>
                 </div>
                 <div class="tipos-moda__body--customizacao types">
                     <h3 class="subtitle">Customizacao</h3>
-                    <p>Ajustar ou personalizar peças antigas para dar uma nova cara a roupas já existentes, seja com corte, tintura, bordado, ou adição de novos detalhes. Há quem pense que a customização define-se em simplesmente fazer ajustes em roupas, mas essa modalidade vai além. A finalidade da customização é personalizar e modificar peças existentes para adaptá-las ao estilo pessoal ou às novas tendências. O processo pode incluir bordados, tingimento, corte e a adição de detalhes que tornam a peça única. Essa técnica oferece uma oportunidade de renovação sem a necessidade de adquirir algo novo, incentivando o consumo consciente e a valorização das roupas que já estão no guarda roupa.</p>
+                    <p>Essa modalidade da moda circular valoriza a personalização e o reaproveitamento de peças existentes, permitindo que cada item se torne único e alinhado ao estilo pessoal de quem o usa. Esse processo inclui desde pequenas mudanças, como ajustes de tamanho e troca de botões, até transformações mais criativas, como tingimento, aplicação de patches e bordados ou cortes que renovam o visual da peça. O objetivo é prolongar a vida útil das roupas, adaptando-as e tornando-as mais interessantes, ao invés de descartá-las.</p>
+                    <p>Essa prática é vantajosa tanto financeiramente, quanto para o meio ambiente, pois incentiva a reutilização de peças, reduzindo o consumo de novas roupas e, por consequência, a demanda por matérias-primas e os resíduos gerados pela indústria têxtil.</p>
+                    <p>A customização promove uma relação mais próxima com o guarda-roupa, em que o consumidor passa a valorizar peças que refletem sua personalidade e suas preferências, evitando a dependência das tendências passageiras da fast fashion.</p>
+                    <p>Exemplo: trocar os botões de uma camisa ou jaqueta por opções mais estilosas ou coloridas pode fazer uma grande diferença na aparência da peça.</p>
                 </div>
                 <div class="tipos-moda__body--reciclagem types">
                     <h3 class="subtitle">Reciclagem</h3>
-                    <p>Marcas que trabalham com tecidos reciclados ou restos de materiais de outras produções para criar novas coleções. Essa técnica consiste na produção de roupas recicladas envolvendo o uso de materiais reaproveitados, como tecidos recuperados de peças antigas, garrafas plásticas ou restos de produção têxtil. Marcas que adotam essa prática estão cada vez mais populares, destacando-se pelo uso de materiais reciclados em suas coleções. O uso de fibras recicladas reduz a demanda por matérias-primas virgens, como algodão e poliéster, e evita que toneladas de resíduos acabem em aterros.</p>
+                    <p>A reciclagem na moda circular é uma prática que transforma roupas e materiais descartados em novas fibras ou tecidos, possibilitando a criação de novas peças a partir de materiais que já existem. Nesse processo, as roupas inutilizáveis ou sobras da produção são coletadas, tratadas e desfeitas em suas fibras originais para que possam ser reaproveitadas. Ao invés de descartadas em aterros ou incineradas, essas fibras são incorporadas na cadeia de produção, reduzindo a demanda por matérias-primas e o impacto ambiental causado pela extração de novos recursos.</p>
+                    <p>Embora o processo de reciclagem têxtil ainda tenha desafios técnicos, como a separação das fibras sintéticas e naturais, ele tem avançado com novas tecnologias que tornam possível o aproveitamento de materiais que antes eram inviáveis para o reaproveitamento.</p>
+                    <p>No mercado já é possível encontrar opções de peças de roupas recicláveis. Ao incorporar materiais reciclados em novas coleções, marcas e designers incentivam práticas mais conscientes e sustentáveis, promovendo uma moda que vai além do consumo rápido e abraça um ciclo contínuo de reutilização.</p>
                 </div>
                 <div class="tipos-moda__body--ressignificacao types">
                     <h3 class="subtitle">Ressignificação</h3>
-                    <p>Utilizar restos de tecidos para formar outra peça totalmente diferente.</p>
-                    <p>Exemplo: pegar restos de camisetas e bordar em cobertores por exemplo</p>
+                    <p>A ressignificação na moda circular é uma prática que transforma o significado e a função de peças antigas, revalorizando-as para criar algo novo e inovador. Em vez de descartar itens que perderam o apelo ou a funcionalidade original, a ressignificação busca interpretá-los e adaptar seu uso.</p>
+                    <p>Essa modalidade contribui para a sustentabilidade, uma vez que evita que roupas e acessórios sejam descartados, aliviando a pressão sobre aterros sanitários e reduzindo a demanda por novos materiais. Ao ressignificar uma pela, o consumidor desafia a lógica da fast fashion e do consumo linear, resgatando o valor e o potencial de transformação dos produtos.</p>
+                    <p>Além de ajudar o meio ambiente, essa modalidade também permite a criação de itens únicos e personalizados, que se destacam por sua exclusividade e pela conexão pessoal com quem os usa.</p>
+                    <p>Exemplo: utilizar cortinas ou tecidos de casa que não estão mais em uso para criar vestidos ou saias. Esse projeto pode resultar em peças com estampas únicas e originais.</p>
                 </div>
                 <div class="tipos-moda__body--troca types">
                     <h3 class="subtitle">Troca</h3>
-                    <p>A prática de troca de roupas, também conhecida como "clothing swap", é uma maneira colaborativa e sem custos de renovar o guarda-roupa. Muitas vezes organizadas em eventos comunitários ou por meio de plataformas digitais, essas trocas promovem o consumo consciente e a socialização entre os participantes. Nesses eventos, as pessoas trazem peças em bom estado que não usam mais e, em troca, escolhem novas peças para levar para casa. É uma ótima maneira de estender a vida útil das roupas sem gerar novos resíduos.</p>
+                    <p>A troca de roupas é uma modalidade da moda circular que promove a prática de compartilhar e trocar peças entre indivíduos, incentivando o uso prolongado e a reutilização de itens. Essa prática pode ocorrer de diversas formas, como em eventos de trocas, plataformas online ou grupos comunitários, onde as pessoas se reúnem para oferecer peças que não utilizam mais em troca de outras que atendam suas necessidades.</p>
+                    <p>Além de proporcionar uma alternativa econômica e sustentável para adquirir roupas, a troca fomenta um estilo de vida mais consciente, permitindo que os indivíduos reflitam sobre suas escolhas de consumo. Essa prática reduz a demanda por novas produções e minimiza a quantidade de resíduos têxteis, já que as peças trocadas ganham uma nova vida nas mãos de outros.</p>
+                    <!-- TODO: Inserir Dicionário 1 -->
+                    <p>Inserir Dicionário 1</p>
+                    <!-- TODO: Inserir Dicionário 2 -->
+                    <p>Inserir Dicionário 2</p>
                 </div>
             </div>
             <!-- <MediaComponent

@@ -7,35 +7,28 @@
             </div>
             <div class="sujeito__body">
                 <div class="sujeito__body--share types">
-                    <h3 class="subtitle">Share</h3>
-                    <p>A marca lançada em abril de 2024, é fruto da ideia da proprietária Núbia Maria Vital, que após uma experiência de trabalho em um brechó de luxo, conheceu o conceito e a aplicabilidade da moda circular na cidade de Bauru. A pequena empresária já fazia esse mesmo trabalho, emprestando roupas para amigas e parentes e, após certo período de estudo de mercado e tendências, passou a monetizar o empréstimo das roupas casuais. O lema da marca é que ao invés de comprar uma peça para usar uma única vez, é possível alugá-la, compartilhando o guarda-roupa, estando bem vestida e, ainda, dentro do orçamento.</p>
-                    <MediaComponent
-                        type="video"
-                        source="videos/test_video.mp4"
-                        width="100%"
-                        alt="Moça"
-                    />
+                    <h3 class="subtitle">Núbia Vital</h3>
+                    <p>Desde que se lembra, Núbia é ligada à moda. Sua mãe conta histórias de que a garota chorava à noite para não colocar pijamas, pois sempre queria estar bem vestida. E foi a partir dessa paixão nata que a empresária se inspirou para abrir seu próprio negócio. Após trabalhar em um brechó, Núbia se aproximou do movimento sustentável fashion e teve uma ideia completamente inovadora: uma loja de aluguel de roupas casuais. Para uma pessoa que sempre compartilhou roupas com amigas e suas três irmãs, foi como simplesmente estender o convite para, agora, suas clientes.</p>
+                    <p>Então, colocou as mãos na massa: fez uma reciclagem com peças dos guarda-roupas de seus familiares e montou um catálogo. Uma empresa familiar, foi estruturada assim, pelas mulheres da família. Hoje, Marta Vital, mãe da empreendedora, trabalha na confecção da próxima coleção a ser lançada.</p>
+                    <p>Núbia é formada em administração e, além de trabalhar com a Share, se especializou em consultoria de imagem e também empreende um segundo negócio: a Vital Serviços Financeiros.</p>
+                    <!-- TODO: Inserir trio de fotos da Núbia -->
+                    <p>Inserir trio de fotos da Núbia</p>
+                    <!-- TODO: Inserir Vídeo 13 - Núbia atendendo cliente -->
+                    <p>Inserir Vídeo 13 - Núbia atendendo cliente</p>
                 </div>
-            <div class="sujeito__body--bazar-espirita types">
-                <h3 class="subtitle">Bazar Centro Espírita Chico Xavier</h3>
-                <p>O Bazar é um braço dentro das atividades do Centro Espírita Chico Xavier. A manutenção e  funcionamento do bazar é feita por um grupo de voluntárias, que se dividem em dois dias da semana, às terças-feiras no período da tarde e aos sábados, no período da manhã. As peças de roupas, sapatos, acessórios, toalhas e roupas de cama são doadas pelos próprios frequentadores do centro espírita. As voluntárias realizam a triagem desses itens, separando aqueles que serão vendidos, doados ou descartados. Toda a renda arrecadada é revertida para o pagamento das despesas fixas do Centro, como conta de luz e água e, também, para a compra de mais de 200 cestas básicas, que são doadas para famílias carentes, assistidas pelo Centro Espírita Chico Xavier.</p>
-                <MediaComponent
-                    type="video"
-                    source="videos/test_video.mp4"
-                    width="100%"
-                    alt="Moça"
-                />
-                <MediaComponent
-                    title="Abertura do Bazar"
-                    type="video"
-                    source="videos/test_video.mp4"
-                    width="100%"
-                    alt="Moça"
-                />
-            </div>
-                <div class="sujeito__body--bazar-burguesinha types">
-                    <h3 class="subtitle">Burguesinha Brechó Chic</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget odio molestie, sollicitudin sem eu, condimentum turpis. Fusce viverra vulputate ligula eget ultricies. Ut et magna id lorem scelerisque malesuada. Maecenas porttitor tristique tellus vitae egestas. Nulla blandit, velit eu molestie commodo, nulla magna interdum nibh, et venenatis nunc turpis vitae diam. Vivamus viverra metus quis velit facilisis, id accumsan nunc gravida. Ut nulla est, ornare vitae nulla sed, dignissim eleifend leo. Sed aliquam convallis sapien in ullamcorper. Nulla lobortis ex fringilla mollis ullamcorper. In mattis dolor est, sit amet hendrerit metus rutrum eget. Proin dignissim mattis lectus eu vulputate. Ut ultricies hendrerit felis a suscipit. Donec et volutpat arcu. Proin placerat efficitur eros, sit amet eleifend nisi mattis nec. Nunc lobortis cursus diam eget maximus. Sed ultrices porta massa non feugiat.</p>
+                <div class="sujeito__body--bazar-espirita types">
+                    <h3 class="subtitle">As voluntárias do bazar</h3>
+                    <p>Helen Ribeiro, Vaneska Hortolan, Roberta Ariani, Blaca Royo e Joelma de Oliveira são algumas das colaboradoras que fazem o Bazar do Centro Espírita Chico Xavier funcionar, participando desde a seleção das peças, nas vendas e até na organização do espaço. Sendo um trabalho movido pela identificação com os propósitos de uma moda positiva no quesito socioambiental, as mulheres relatam como a experiência no bazar mudou seus guarda roupas. “Entra uma peça, sai outra. Dar sempre lugar para o novo, dar oportunidade ao novo, nós vamos reciclando. Se está em um bom estado, mas não serve mais pra mim, serve para outra pessoa que vá usar. E	vai ficar feliz de estar usando aquilo que nós doamos. É muito importante ter esse pensamento, não serve mais para mim, serve para o outro”, conta Roberta Ariani.</p>
+                    <!-- TODO: Inserir Áudio 2 -->
+                    <p>Inserir Áudio 2</p>
+                </div>
+                <div class="sujeito__body--bazar-espirita types">
+                    <h3 class="subtitle">Andressa Martins</h3>
+                    <p>Andressa Martins é sócia proprietária do Burguesinha Brechó Chic e nos confidenciou que a moda circular é uma temática nova em sua vida. A ideia de abrir a franquia na cidade de Bauru surgiu há cerca de um ano por indicação de alguns amigos a respeito dessa nova tendência. Andressa não possuía experiência ou interesse pelo âmbito fashion e sustentável, mas embarcou nessa novidade. Hoje, à frente de um brechó que faz parte de uma das maiores franquias do Brasil, ela demonstra ter mergulhado de cabeça nesse universo, entendendo a importância da moda circular e compreendendo as tendências atuais femininas.</p>
+                    <!-- TODO: Inserir Áudio 4 -->
+                    <p>Inserir Áudio 4</p>
+                    <!-- TODO: Inserir Vídeo 6 -->
+                    <p>Inserir Vídeo 6</p>
                 </div>
             </div>
         </div>
@@ -53,14 +46,14 @@
 <script>
 import BannerComponent from '@/components/BannerComponent.vue';
 import NextPageComponent from '@/components/NextPageComponent.vue';
-import MediaComponent from '@/components/MediaComponent.vue';
+// import MediaComponent from '@/components/MediaComponent.vue';
 
 export default {
     name: 'SujeitoView',
     components: {
         BannerComponent,
         NextPageComponent,
-        MediaComponent,
+        // MediaComponent,
     }
 };
 </script>
