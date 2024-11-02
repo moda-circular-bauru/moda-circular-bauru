@@ -171,7 +171,6 @@ h4.highlight-text {
 }
 
 
-
 @media screen and (min-width: 1024px) {
     .only-mobile {
         display: none !important;
@@ -185,6 +184,11 @@ h4.highlight-text {
     
     .only-desktop {
         display: none !important;
+    }
+
+    .link-default {
+      color: var(--color-2); /* Cor alterada para o estilo hover */
+      text-decoration: underline;
     }
 }
 

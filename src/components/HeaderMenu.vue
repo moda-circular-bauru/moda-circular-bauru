@@ -97,7 +97,7 @@
         font-weight: 700;
         font-size: 18px;
         
-        padding: 28px 0px;
+        padding: 25px 0px;
     }
     
     .main-header .main-header__navigation-list--item a:hover,
