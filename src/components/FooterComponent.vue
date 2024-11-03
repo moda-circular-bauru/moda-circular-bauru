@@ -16,10 +16,11 @@
                     <ul class="footer__navigation-list">
                         <li class="footer__navigation-list--title"><h5>Navegação</h5></li>
                         <li class="footer__navigation-list--item"><router-link to="/">Home</router-link></li>
-                        <li class="footer__navigation-list--item"><router-link to="/impacto-ambiental">Impacto Ambiental</router-link></li>
+                        <li class="footer__navigation-list--item"><router-link to="/impacto-ambiental">Impacto ambiental</router-link></li>
                         <li class="footer__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
                         <li class="footer__navigation-list--item"><router-link to="/bauru">Em Bauru</router-link></li>
-                        <li class="footer__navigation-list--item"><router-link to="/quem-faz-a-moda">Quem faz a moda</router-link></li>
+                        <li class="footer__navigation-list--item"><router-link to="/quem-faz-a-moda">Quem faz a Moda</router-link></li>
+                        <li class="footer__navigation-list--item"><router-link to="/quem-somos">Quem somos</router-link></li>
                     </ul>
                 </nav>
                 <div class="footer__undergraduates">

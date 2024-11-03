@@ -6,12 +6,12 @@
                     <router-link @click="closeMenu" to="/">Home</router-link>
                 </div>
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/impacto-ambiental">Impacto Ambiental</router-link>
+                    <router-link @click="closeMenu" to="/impacto-ambiental">Impacto ambiental</router-link>
                 </div>
             </div>
             <div class="mobile-menu__row">
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/quem-somos">Quem Somos</router-link>
+                    <router-link @click="closeMenu" to="/quem-somos">Quem somos</router-link>
                 </div>
                 <div class="mobile-menu__row--title">
                     <h4 class="title">Moda Circular em Bauru</h4>
