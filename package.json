@@ -2,6 +2,7 @@
   "name": "moda-circular-bauru",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://moda-circular-bauru.github.io/moda-circular-bauru/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
