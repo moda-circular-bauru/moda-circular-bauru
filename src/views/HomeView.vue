@@ -55,14 +55,15 @@
 					description="Reprodução/Gabriela Rufino Armelin"
                 />
 				<h3 class="subtitle mesacast">Mesacast: bate-papo com a pesquisadora Gabrielli Natividade</h3>
-				<!-- <MediaComponent
-                    type="video"
-                    source="videos/mesacast.mp4"
-                    alt="Mesacast com Gabrielli Natividade"
-                    width="100%"
-					height="100%"
-					description="Reprodução/Elisa Romera De Freitas, Gabriela Rufino Armelin, Giovana Cordero Cerantola e Lara Vitória Daniel Duarte"
-                /> -->
+				<iframe src="https://www.youtube.com/embed/PO79B2pn5ZM?si=AQ4Rs4hlJnIyhwiW"
+					width="100%"
+					height="480px"
+					title="Mesacast: bate-papo com a pesquisadora Gabrielli Natividade"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				></iframe>
 			</div>
 		</div>
 	</section>
