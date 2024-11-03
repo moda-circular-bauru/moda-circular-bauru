@@ -58,7 +58,7 @@
                             source="images/dictionary1.jpg"
                             alt="Dicionario 1"
                             width="100%"
-                        />
+                            />
                         <MediaComponent
                             type="image"
                             source="images/dictionary2.jpg"
@@ -66,51 +66,58 @@
                             width="100%"
                         />
                     </div>
+                    <p class="dictionaries-subtitle">Reprodução/Elisa Romera De Freitas</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="other-page">
-		<div class="container">
-			<div class="other-page">
+        <div class="container">
+            <div class="other-page">
                 <NextPageComponent page-name="Impacto Ambiental" page-link="/impacto-ambiental" :toNext="false"/>
-				<NextPageComponent page-name="Bauru" page-link="/bauru" />
-			</div>
-		</div>
-	</section>
+                <NextPageComponent page-name=" Em Bauru" page-link="/bauru" />
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
     import BannerComponent from '@/components/BannerComponent.vue';
     import NextPageComponent from '@/components/NextPageComponent.vue';
-	import MediaComponent from '@/components/MediaComponent.vue';
+    import MediaComponent from '@/components/MediaComponent.vue';
 
     export default {
         name: 'TiposDeModaView',
         components: {
             BannerComponent,
             NextPageComponent,
-			MediaComponent,
+            MediaComponent,
         }
     };
 </script>
 
 <style scoped>
-	.tipos-moda__head {
-	margin-bottom: 32px;
-	}
+    .tipos-moda__head {
+        margin-bottom: 32px;
+    }
 
-	.tipos-moda__body p:not(:last-child) {
-	margin-bottom: 16px;
-	}
+    .tipos-moda__body p:not(:last-child) {
+        margin-bottom: 16px;
+    }
 
-	.tipos-moda__body .types:not(:last-child) {
-	margin-bottom: 32px;
-	}
+    .tipos-moda__body .types:not(:last-child) {
+        margin-bottom: 32px;
+    }
     
     .troca__dictionaries--image-block {
         display: flex;
         gap: 16px;
+    }
+
+    .dictionaries-subtitle {
+        font-size: 18px;
+        color: var(--color-gray);
+        text-align: start;
     }
     
     @media screen and (max-width: 991px) {

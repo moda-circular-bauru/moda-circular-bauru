@@ -18,7 +18,7 @@
                     <li class="main-header__navigation-list--item"><router-link to="/impacto-ambiental">Impacto Ambiental</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/tipos-de-moda">Tipos de Moda</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/bauru">Em Bauru</router-link></li>
-                    <li class="main-header__navigation-list--item"><router-link to="/sujeito">Quem faz a moda</router-link></li>
+                    <li class="main-header__navigation-list--item"><router-link to="/quem-faz-a-moda">Quem faz a Moda</router-link></li>
                     <li class="main-header__navigation-list--item"><router-link to="/quem-somos">Quem Somos</router-link></li>
                 </ul>
             </nav>
@@ -65,10 +65,6 @@
         justify-content: space-between;
     }
 
-    .main-header  .main-header__logo {
-        width: 20%;
-    }
-    
     .main-header .main-header__navigation {
         display: flex;
         align-items: center;
@@ -97,7 +93,7 @@
         font-weight: 700;
         font-size: 18px;
         
-        padding: 25px 0px;
+        padding: 26px 0px;
     }
     
     .main-header .main-header__navigation-list--item a:hover,

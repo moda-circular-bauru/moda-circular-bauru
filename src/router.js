@@ -12,7 +12,7 @@ const routes = [
   { path: '/impacto-ambiental', name: 'ImpactoAmbiental', component: ImpactoAmbientalView },
   { path: '/tipos-de-moda', name: 'TiposDeModa', component: TiposDeModaView },
   { path: '/bauru', name: 'Bauru', component: BauruView },
-  { path: '/sujeito', name: 'Sujeito', component: SujeitoView },
+  { path: '/quem-faz-a-moda', name: 'Sujeito', component: SujeitoView },
   { path: '/quem-somos', name: 'QuemSomos', component: QuemSomosView },
 ];
 

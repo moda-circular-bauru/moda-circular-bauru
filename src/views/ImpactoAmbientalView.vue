@@ -16,6 +16,7 @@
                     alt="Julia Helena Galante Fast fashion e o impacto ambiental"
                     width="100%"
                     height="100%"
+					description="Reprodução/Gabriela Rufino Armelin"
                 />
                 <p>Os tecidos de poliéster e outros materiais sintéticos não biodegradáveis são utilizados na produção das peças; esse é um dos motivos que eles não podem ser enviados aos aterros sanitários para uma decomposição orgânica.</p>
                 <p>Nesse sentido, as roupas têm um destino clandestino quando se trata do descarte correto. Dentro do espaço geográfico latinoamericano, o deserto do Atacama, no Chile, se destaca negativamente como um cemitério a céu aberto desses produtos que são colocados para o esquecimento.</p>
@@ -26,6 +27,7 @@
                     alt="Julia Helena Galante Deserto do Atacama"
                     width="100%"
                     height="100%"
+					description="Reprodução/Gabriela Rufino Armelin"
                 />
                 <p>Num panorama histórico da moda, desde a sua revolução em meados de 2014, o consumidor final comprou cerca de 60% mais roupas, quando comparado aos anos 2000. Além disso, elas são mantidas no closet por metade do tempo, o que consta como uma banalização do descarte dentro desse comparativo.</p>
                 <p>Importante dizer que, o caso do Atacama não é único e isolado: a Europa e outros países dominantes do setor mandam descartar em países subdesenvolvidos, fazendo com que surjam os verdadeiros lixões fashion.</p>
@@ -36,7 +38,9 @@
                         type="image"
                         source="images/infograpic_environment.jpg"
                         alt="Infográfico Meio Ambiente"
-                        width="auto"
+                        width="90%"
+                        align="center"
+                        description="Reprodução/Gabriela Rufino Armelin"
                     />
                 </div>
             </div>

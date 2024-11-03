@@ -16,6 +16,7 @@
                         source="images/nubia_compilation.jpg"
                         alt="Fotos da Núbia"
                         width="100%"
+                        description="Reprodução/Elisa Romera De Freitas, Giovana Cordero Cerantola e Lara Vitória Daniel Duarte"
                     />
                     <MediaComponent
                         type="video"
@@ -23,6 +24,7 @@
                         alt="Núbia Atendendo um Cliente"
                         width="100%"
                         height="100%"
+                        description="Reprodução/Elisa Romera De Freitas, Giovana Cordero Cerantola e Lara Vitória Daniel Duarte"
                     />
                 </div>
                 <div class="sujeito__body--bazar-espirita types">
@@ -46,8 +48,10 @@
                         type="video"
                         source="videos/burguesinha_reels.mp4"
                         alt="Reels da Burguesinha's"
-                        width="100%"
-                        height="100%"
+                        width="50%"
+                        height="50%"
+                        align="center"
+                        description="Reprodução/Elisa Romera De Freitas e Gabriela Rufino Armelin"
                     />
                 </div>
             </div>
@@ -56,7 +60,7 @@
     <section id="other-page">
 		<div class="container">
 			<div class="other-page">
-				<NextPageComponent page-name="Bauru" page-link="/bauru" :toNext="false" />
+				<NextPageComponent page-name="Em Bauru" page-link="/bauru" :toNext="false" />
                 <NextPageComponent page-name="Quem Somos" page-link="/quem-somos" />
 			</div>
 		</div>

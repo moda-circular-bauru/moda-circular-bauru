@@ -1,5 +1,5 @@
 <template>
-	<BannerComponent banner="images/banner_home.webp" />
+	<BannerComponent banner="images/banner_about.webp" />
 	<section id="about">
 		<div class="container">
 			<div class="about__head">
@@ -39,12 +39,69 @@
 					height="100%"
 				/>
 			</div>
+			<h1 class="title credits">Créditos</h1>
+			<div class="about__credits">
+				<div class="Reportagem">
+					<h3 class="subtitle">Reportagem</h3>
+					<p>Elisa Romera De Freitas</p>
+					<p>Gabriela Rufino Armelin</p>
+					<p>Giovana Cordero Cerantola</p>
+					<p>Lara Vitória Daniel Duarte</p>
+				</div>
+				<div class="Entrevista">
+					<h3 class="subtitle">Entrevista</h3>
+					<p>Elisa Romera De Freitas</p>
+					<p>Gabriela Rufino Armelin</p>
+					<p>Giovana Cordero Cerantola</p>
+					<p>Lara Vitória Daniel Duarte</p>
+				</div>
+				<div class="Roteiro e Produção Mesacast">
+					<h3 class="subtitle">Roteiro e Produção Mesacast</h3>
+					<p>Elisa Romera De Freitas</p>
+					<p>Gabriela Rufino Armelin</p>
+					<p>Giovana Cordero Cerantola</p>
+					<p>Lara Vitória Daniel Duarte</p>
+				</div>
+				<div class="Apresentação Mesacast">
+					<h3 class="subtitle">Apresentação Mesacast</h3>
+					<p>Elisa Romera De Freitas</p>
+					<p>Giovana Cordero Cerantola</p>
+				</div>
+				<div class="Captação Mesacast">
+					<h3 class="subtitle">Captação Mesacast</h3>
+					<p>TV Unesp</p>
+				</div>
+				<div class="Design">
+					<h3 class="subtitle">Design</h3>
+					<p>Gabriela Rufino Armelin</p>
+				</div>
+				<div class="Edição audiovisual">
+					<h3 class="subtitle">Edição audiovisual</h3>
+					<p>Gabriela Rufino Armelin</p>
+				</div>
+				<div class="Edição textual">
+					<h3 class="subtitle">Edição textual</h3>
+					<p>Elisa Romera De Freitas</p>
+				</div>
+				<div class="Revisão textual">
+					<h3 class="subtitle">Revisão textual</h3>
+					<p>Elisa Romera De Freitas</p>
+				</div>
+				<div class="Desenvolvimento e edição do site">
+					<h3 class="subtitle">Desenvolvimento do site</h3>
+					<p>Jeferson Patrick Dietrich Filho</p>
+				</div>
+				<div class="Desenvolvimento e edição do site">
+					<h3 class="subtitle">Orientador</h3>
+					<p> Prof. Assoc. Denis Porto Renó</p>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section id="other-page">
 		<div class="container">
 			<div class="other-page">
-				<NextPageComponent page-name="Quem faz a moda circular?" page-link="/sujeito" :toNext="false"/>
+				<NextPageComponent page-name="Quem faz a moda circular?" page-link="/quem-faz-a-moda" :toNext="false"/>
 				<NextPageComponent page-name="Home" page-link="/" />
 			</div>
 		</div>
@@ -77,14 +134,39 @@
 		grid-template-columns: repeat(4, 1fr);
 	}
 	
+	.about__credits {
+		display: grid;
+		gap: 32px 0;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.title.credits {
+		margin-top: 32px;
+	}
+
+
 	@media screen and (max-width: 1199px) {
 		.about__body {
 			grid-template-columns: repeat(2, 1fr);
 		}
 	}
 	
+	@media screen and (max-width: 991px)  {
+		.about__credits {
+			display: grid;
+			gap: 32px 0;
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+	
+	
 	@media screen and (max-width: 767px) {
 		.about__body {
+			grid-template-columns: repeat(1, 1fr);
+		}
+		.about__credits {
+			display: grid;
+			gap: 32px 0;
 			grid-template-columns: repeat(1, 1fr);
 		}
 	}

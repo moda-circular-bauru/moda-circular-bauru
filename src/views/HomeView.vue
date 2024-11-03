@@ -29,6 +29,7 @@
                     alt="Julia Helena Galante Economia circular e moda circular"
                     width="100%"
 					height="100%"
+					description="Reprodução/Gabriela Rufino Armelin"
                 />
 				<p>Mas então, por que é que continuamos produzindo em tão alta escala?</p>
 				<h3 class="subtitle">Os delírios de consumo</h3>
@@ -51,7 +52,17 @@
                     alt="Julia Helena Galante Glamourização dos Brechós"
                     width="100%"
 					height="100%"
+					description="Reprodução/Gabriela Rufino Armelin"
                 />
+				<h3 class="subtitle mesacast">Mesacast: bate-papo com a pesquisadora Gabrielli Natividade</h3>
+				<!-- <MediaComponent
+                    type="video"
+                    source="videos/mesacast.mp4"
+                    alt="Mesacast com Gabrielli Natividade"
+                    width="100%"
+					height="100%"
+					description="Reprodução/Elisa Romera De Freitas, Gabriela Rufino Armelin, Giovana Cordero Cerantola e Lara Vitória Daniel Duarte"
+                /> -->
 			</div>
 		</div>
 	</section>
@@ -87,5 +98,9 @@
 
 	.home__body p:not(:last-child) {
 		margin-bottom: 16px;
+	}
+
+	.subtitle.mesacast {
+		margin-top: 48px;
 	}
 </style>

@@ -101,6 +101,10 @@ p, span, a {
   font-weight: var(--text-weight);
 }
 
+audio {
+  width: 700px;
+}
+
 .title {
     color: var(--color-2);
     margin-bottom: 16px;
@@ -114,7 +118,9 @@ p, span, a {
 
 h4.highlight-text {
     font-size: 22px;
-    margin-bottom: 16px;
+    margin: 32px 0 32px 0;
+    padding: 0 64px;
+    text-align: center;
 }
 
 #other-page {
@@ -170,11 +176,20 @@ h4.highlight-text {
   opacity: 0.5; /* Ajuste a opacidade para destacar o highlight */
 }
 
+.home__body p,
+.tipos-moda__body p,
+.tipos-moda__head p,
+.impacto-ambiental__body p,
+.bauru__body p,
+.sujeito__body p,
+.about__body p {
+  margin-right: 32px;
+}
 
 @media screen and (min-width: 1024px) {
     .only-mobile {
         display: none !important;
-    } 
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -189,6 +204,20 @@ h4.highlight-text {
     .link-default {
       color: var(--color-2); /* Cor alterada para o estilo hover */
       text-decoration: underline;
+    }
+
+    .home__body p,
+    .tipos-moda__body p,
+    .tipos-moda__head p,
+    .impacto-ambiental__body p,
+    .bauru__body p,
+    .sujeito__body p,
+    .about__body p {
+      margin-right: 0;
+    }
+
+    audio {
+      width: 600px;
     }
 }
 
@@ -207,7 +236,11 @@ h4.highlight-text {
     
     h3 {
         font-size: 24px;
-    }      
+    }
+
+    audio {
+      width: 400px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -215,5 +248,9 @@ h4.highlight-text {
         flex-direction: column;
         align-items: center;
         gap: 64px;
+    }
+
+    audio {
+      width: 100%;
     }
 }

@@ -17,6 +17,7 @@
                     alt="Helen Mayer Chico Xavier"
                     width="100%"
                     height="100%"
+                    description="Reprodução/Giovana Cordero Cerantola e Lara Vitória Daniel Duarte"
                 />
 				<p>O Bazar, que é um braço dentro das atividades do Centro Espírita Chico Xavier, é ponto de compra de várias donas de brechós da cidade de Bauru, que revendem essas peças em seus respectivos negócios.</p>
 				<p>Todo esse movimento se deve, principalmente, às peças em bom estado selecionadas pela equipe e pelos preços bem acessíveis, o que torna o processo de revenda mais vantajoso.</p>
@@ -46,6 +47,7 @@
                     alt="Burguesinha"
                     width="100%"
                     height="100%"
+                    description="Reprodução/Elisa Romera De Freitas e Gabriela Rufino Armelin"
                 />
                 <p>Ainda no contexto de moda circular, a pequena empresária Núbia Maria Vital propôs  um tipo de serviço diferente, através da loja Share. A marca é a primeira na cidade de Bauru que realiza o serviço de aluguel de roupas casuais.</p>
                 <p>Voltadas para o para o dia a dia e não tão sofisticadas para um evento luxuoso, as roupas buscam ampliar o guarda-roupa das clientes, carinhosamente apelidadas de BFFs, trazendo mais opções para diversos eventos, a partir de um preço acessível.</p>
@@ -56,6 +58,7 @@
                     alt="Share"
                     width="100%"
                     height="100%"
+                    description="Reprodução/Elisa Romera De Freitas, Giovana Cordero Cerantola e Lara Vitória Daniel Duarte"
                 />
             </div>
         </div>
@@ -64,7 +67,7 @@
 		<div class="container">
 			<div class="other-page">
 				<NextPageComponent page-name="Tipos de Moda" page-link="/tipos-de-moda" :toNext="false" />
-                <NextPageComponent page-name="Quem faz a moda circular?" page-link="/sujeito" />
+                <NextPageComponent page-name="Quem faz a moda circular?" page-link="/quem-faz-a-moda" />
 			</div>
 		</div>
 	</section>
@@ -87,11 +90,15 @@ export default {
 </script>
 
 <style scoped>
-.bauru__head {
-  margin-bottom: 32px;
-}
+    .bauru__head {
+    margin-bottom: 32px;
+    }
 
-.bauru__body p:not(:last-child) {
-  margin-bottom: 16px;
-}
+    .bauru__body p {
+		margin-right: 32px;
+    }
+
+    .bauru__body p:not(:last-child) {
+    margin-bottom: 16px;
+    }
 </style>

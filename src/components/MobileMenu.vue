@@ -22,10 +22,10 @@
             </div>
             <div class="mobile-menu__row">
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/sujeito">Sujeito</router-link>
+                    <router-link @click="closeMenu" to="/quem-faz-a-moda">Quem faz a Moda</router-link>
                 </div>
                 <div class="mobile-menu__row--link">
-                    <router-link @click="closeMenu" to="/bauru">Bauru</router-link>
+                    <router-link @click="closeMenu" to="/bauru">Em Bauru</router-link>
 
                 </div>
             </div>
