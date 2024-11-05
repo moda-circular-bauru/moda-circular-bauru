@@ -64,6 +64,7 @@
 					referrerpolicy="strict-origin-when-cross-origin"
 					allowfullscreen
 				></iframe>
+				<p class="description">Reprodução/Elisa Romera De Freitas, Gabriela Rufino Armelin, Giovana Cordero Cerantola e Lara Vitória Daniel Duarte</p>
 			</div>
 		</div>
 	</section>
@@ -103,5 +104,11 @@
 
 	.subtitle.mesacast {
 		margin-top: 48px;
+	}
+
+	.description {
+		font-size: 18px;
+        color: var(--color-gray);
+        text-align: start;
 	}
 </style>

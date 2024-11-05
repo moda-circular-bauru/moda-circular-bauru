@@ -29,7 +29,7 @@
                     <p>Exemplo: um par de jeans antigos pode ser cortado e transformado em shorts, com a adição de detalhes como bordados, patches ou rendas para personalização.</p>
                 </div>
                 <div class="tipos-moda__body--customizacao types">
-                    <h3 class="subtitle">Customizacao</h3>
+                    <h3 class="subtitle">Customização</h3>
                     <p>Essa modalidade da moda circular valoriza a personalização e o reaproveitamento de peças existentes, permitindo que cada item se torne único e alinhado ao estilo pessoal de quem o usa. Esse processo inclui desde pequenas mudanças, como ajustes de tamanho e troca de botões, até transformações mais criativas, como tingimento, aplicação de patches e bordados ou cortes que renovam o visual da peça. O objetivo é prolongar a vida útil das roupas, adaptando-as e tornando-as mais interessantes, ao invés de descartá-las.</p>
                     <p>Essa prática é vantajosa tanto financeiramente, quanto para o meio ambiente, pois incentiva a reutilização de peças, reduzindo o consumo de novas roupas e, por consequência, a demanda por matérias-primas e os resíduos gerados pela indústria têxtil.</p>
                     <p>A customização promove uma relação mais próxima com o guarda-roupa, em que o consumidor passa a valorizar peças que refletem sua personalidade e suas preferências, evitando a dependência das tendências passageiras da fast fashion.</p>
@@ -75,7 +75,7 @@
         <div class="container">
             <div class="other-page">
                 <NextPageComponent page-name="Impacto Ambiental" page-link="/impacto-ambiental" :toNext="false"/>
-                <NextPageComponent page-name=" Em Bauru" page-link="/bauru" />
+                <NextPageComponent page-name="Em Bauru" page-link="/bauru" />
             </div>
         </div>
     </section>
