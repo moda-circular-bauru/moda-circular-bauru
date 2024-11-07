@@ -86,6 +86,9 @@
 				<div class="Revisão textual">
 					<h3 class="subtitle">Revisão textual</h3>
 					<p>Elisa Romera De Freitas</p>
+					<p>Gabriela Rufino Armelin</p>
+					<p>Giovana Cordero Cerantola</p>
+					<p>Lara Vitória Daniel Duarte</p>
 				</div>
 				<div class="Desenvolvimento e edição do site">
 					<h3 class="subtitle">Desenvolvimento do site</h3>
