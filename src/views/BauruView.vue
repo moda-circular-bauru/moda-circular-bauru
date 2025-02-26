@@ -3,7 +3,7 @@
     <section id="bauru">
         <div class="container">
             <div class="bauru__head">
-                <h1 class="title">Onde a moda circula por Bauru</h1>
+                <h1 class="title">Onde circula a moda em bauru</h1>
             </div>
             <div class="bauru__body">
                 <p>Uma das maiores cidades do centro-oeste paulista, Bauru abriga uma série de empreendimentos voltados para moda sustentável, sendo uma cidade influente no cenário fashion interiorano. Com aluguéis de roupas, franquias e brechós pequenos, são diversas as oportunidades para conhecer, aderir ao movimento  e incentivar os pequenos empreendedores locais e lojas que possuem um espaço físico na cidade.</p>
