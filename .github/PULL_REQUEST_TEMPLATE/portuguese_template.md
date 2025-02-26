@@ -1,7 +1,7 @@
 # Description
 <details>
 
-<summary>Expand / Collapse</summary>
+<summary>Expandir / Recolher</summary>
 
 - Odoo Task
 - GitHub Issue
@@ -13,7 +13,7 @@ Short description about issue
 # Solution Implemented
 <details>
 
-<summary>Expand / Collapse</summary>
+<summary>Expandir / Recolher</summary>
 
 Description about the logic and code implemented
 
@@ -22,7 +22,7 @@ Description about the logic and code implemented
 # Evidences
 <details>
 
-<summary>Expand / Collapse</summary>
+<summary>Expandir / Recolher</summary>
 
 Prints and evidences of expected result
 
