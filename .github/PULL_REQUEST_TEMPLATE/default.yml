@@ -1,0 +1,41 @@
+name: "🔧 General PR"
+description: "Use this template for general pull requests."
+body:
+  - type: markdown
+    attributes:
+      value: "Please provide details of the pull request below."
+
+  - type: textarea
+    attributes:
+      label: "What does this PR do?"
+      description: "Provide a clear description of what this pull request does."
+
+  - type: checkboxes
+    id: input1
+    attributes:
+      label: "Testing"
+      options:
+        - label: "I have tested the changes."
+        - label: "I have added tests for new code."
+
+  - type: textarea
+    attributes:
+      label: "How to test this PR?"
+      description: "Describe how the reviewer can test this PR."
+
+  - type: dropdown
+    attributes:
+      label: "Type of change"
+      options:
+        - "Bug Fix"
+        - "Feature"
+        - "Documentation"
+        - "Refactor"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Link to relevant issue(s)"
+      description: "If applicable, link to the issue(s) related to this PR."

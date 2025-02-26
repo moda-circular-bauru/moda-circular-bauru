@@ -1,0 +1,47 @@
+name: "🐛 Bug Fix"
+description: "For submitting bug fixes."
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for contributing to fixing a bug! Please provide the details below."
+
+  - type: textarea
+    attributes:
+      label: "What is the bug you are fixing?"
+      description: "Please describe the bug in detail."
+
+  - type: checkboxes
+    id: input1
+    attributes:
+      label: "Testing"
+      options:
+        - label: "I have tested the fix locally."
+        - label: "I have added tests to cover the fix."
+
+  - type: textarea
+    attributes:
+      label: "How can this bug be reproduced?"
+      description: "Provide clear steps to reproduce the bug."
+
+  - type: textarea
+    attributes:
+      label: "What is the expected behavior?"
+      description: "Describe the behavior that should happen instead of the bug."
+
+  - type: dropdown
+    attributes:
+      label: "Which area is affected by this fix?"
+      options:
+        - Core
+        - CLI
+        - Plugins
+        - Documentation
+        - Tests
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: "Link to relevant issue(s)"
+      description: "If applicable, link to the issue(s) being fixed (e.g., Fixes #123)."
