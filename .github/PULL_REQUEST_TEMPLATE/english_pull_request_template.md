@@ -1,29 +1,11 @@
-# Description
-<details>
+## Description
+<!-- Please include a summary of the changes you made and the related issue. -->
 
-<summary>Expand / Collapse</summary>
+## Type of change
+- [ ] Bug fix
+- [ ] New feature
+- [ ] Breaking change
+- [ ] Documentation update
 
-- Odoo Task
-- GitHub Issue
-
-Short description about issue
-
-</details>
-
-# Solution Implemented
-<details>
-
-<summary>Expand / Collapse</summary>
-
-Description about the logic and code implemented
-
-</details>
-
-# Evidences
-<details>
-
-<summary>Expand / Collapse</summary>
-
-Prints and evidences of expected result
-
-</details>
+## How has this been tested?
+<!-- Please describe the tests you ran to verify your changes. -->
