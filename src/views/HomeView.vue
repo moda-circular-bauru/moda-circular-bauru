@@ -4,7 +4,7 @@
 	<section id="home">
 		<div class="container">
 			<div class="home__head">
-				<h1 class="title">Moda Circular: uma alternativa para delírios e consumos</h1>
+				<h1 class="title">Moda Circular</h1>
 				<h3 class="subtitle">Veja como é possível comprar em lojas bauruenses e mudar o impacto socioambiental da indústria fashion</h3>
 			</div>
 			<div class="home__body">
