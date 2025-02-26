@@ -3,7 +3,7 @@
     <section id="impacto-ambiental">
         <div class="container">
             <div class="impacto-ambiental__head">
-                <h1 class="title">Impacto Socioambiental: a roupa sustentável é a que existe</h1>
+                <h1 class="title">Impacto Socioambiental</h1>
             </div>
             <div class="impacto-ambiental__body">
                 <p>Pois bem, essa produção excessiva de roupas e a rápida obsolescência da moda resultaram em um aumento substancial de resíduos têxteis em território nacional. Segundo a Associação Brasileira de Empresas de Limpeza Pública e Resíduos Especiais (Abrelpe), mais de 4 milhões de toneladas de resíduos têxteis são descartadas anualmente no Brasil.</p>
